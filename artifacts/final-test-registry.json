@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "run": "artifacts/native-final-test-v1",
+  "arms": {
+    "original": null,
+    "supervised": {
+      "kernel_source": "alwaysacing/repairlab-native-supervised-warmup",
+      "upstream_version": 1,
+      "file_sha256": "2dd4773919ca4c13934d796fd0e38ed77aeb8df12055e2cd8f3b69992ac47375",
+      "tensor_sha256": "245ac4651a2fb8018a8c699bc6219341ddf85a674d8584372bd5aa4905213c82",
+      "base_sha256": "2d4bad117c2ae98f4a69740ac05d48c237237d84711349a396c5e98866553204"
+    },
+    "recovery": {
+      "kernel_source": "alwaysacing/repairlab-native-recovery-training",
+      "upstream_version": 1,
+      "file_sha256": "d7e7194d9623137a60d170dc3fdebe3957d2454f8352a08ea455addfab192853",
+      "tensor_sha256": "84c8b61f2f195b12643934f31e7dd0c26d9da71ad89ffde5b041f33233c444d1",
+      "base_sha256": "2d4bad117c2ae98f4a69740ac05d48c237237d84711349a396c5e98866553204"
+    },
+    "rl": {
+      "kernel_source": "alwaysacing/repairlab-native-rl-cycle-6",
+      "upstream_version": 1,
+      "file_sha256": "179592c22a530e43bb8bc6d12e0baea34ed298b75ff07f5881ce1626fc576571",
+      "tensor_sha256": "45e360fad2d75f2e5a63c925729f8801716cfd88b3fd85e15eea2b3b95e4b379",
+      "base_sha256": "2d4bad117c2ae98f4a69740ac05d48c237237d84711349a396c5e98866553204"
+    }
+  },
+  "task_ids": [
+    "ipv4-octets",
+    "same-letter-counts",
+    "valid-day-of-month",
+    "letter-and-digit",
+    "email-shape",
+    "triangle-sides",
+    "uniform-values",
+    "power-of-two",
+    "transpose-rows",
+    "second-largest-distinct",
+    "count-inversions",
+    "split-on-zero",
+    "pad-to-length",
+    "swap-adjacent-pairs",
+    "common-in-left-order",
+    "lower-median",
+    "integer-sqrt",
+    "factorial-loop",
+    "fibonacci-number",
+    "prime-check",
+    "greedy-coin-count",
+    "thermostat-state",
+    "quiet-hours",
+    "clock-add"
+  ],
+  "successes": {
+    "original": 0,
+    "supervised": 5,
+    "recovery": 7,
+    "rl": 9
+  },
+  "rule": "Opened once after every checkpoint and rule was frozen; never reopen."
+}

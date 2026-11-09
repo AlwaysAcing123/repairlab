@@ -1,0 +1,5626 @@
+{
+  "verified": true,
+  "split": "final_test_2",
+  "seeded_failure": false,
+  "full_task_list": true,
+  "episodes": 240,
+  "tasks": 48,
+  "generated_calls": 1391,
+  "valid_native_calls": 1325,
+  "invalid_native_calls": 66,
+  "identical_environment_across_rounds": true,
+  "checkpoints_reloaded_and_unchanged": true,
+  "public_only_conversations_verified": true,
+  "sealed_final_2_tasks_used": 48,
+  "fresh_submitted_regrades": [
+    {
+      "episode_id": "semver-parts--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.556,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5089,
+        "passed_cases": 1349,
+        "total_cases": 1368
+      }
+    },
+    {
+      "episode_id": "semver-parts--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6325,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5874,
+        "passed_cases": 1265,
+        "total_cases": 1368
+      }
+    },
+    {
+      "episode_id": "chess-square--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5744,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5091,
+        "passed_cases": 399,
+        "total_cases": 399
+      }
+    },
+    {
+      "episode_id": "chess-square--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5051,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5778,
+        "passed_cases": 371,
+        "total_cases": 399
+      }
+    },
+    {
+      "episode_id": "chess-square--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5875,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5539,
+        "passed_cases": 399,
+        "total_cases": 399
+      }
+    },
+    {
+      "episode_id": "chess-square--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5085,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5879,
+        "passed_cases": 399,
+        "total_cases": 399
+      }
+    },
+    {
+      "episode_id": "price-format--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4926,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5687,
+        "passed_cases": 105,
+        "total_cases": 106
+      }
+    },
+    {
+      "episode_id": "alternating-signs--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4811,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.8657,
+        "passed_cases": 722,
+        "total_cases": 780
+      }
+    },
+    {
+      "episode_id": "exam-pass--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5611,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5566,
+        "passed_cases": 80,
+        "total_cases": 80
+      }
+    },
+    {
+      "episode_id": "exam-pass--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4958,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4931,
+        "passed_cases": 80,
+        "total_cases": 80
+      }
+    },
+    {
+      "episode_id": "exam-pass--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5219,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5362,
+        "passed_cases": 80,
+        "total_cases": 80
+      }
+    },
+    {
+      "episode_id": "exam-pass--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5413,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4906,
+        "passed_cases": 80,
+        "total_cases": 80
+      }
+    },
+    {
+      "episode_id": "in-rectangle--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5851,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5674,
+        "passed_cases": 222,
+        "total_cases": 222
+      }
+    },
+    {
+      "episode_id": "in-rectangle--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.542,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5091,
+        "passed_cases": 190,
+        "total_cases": 222
+      }
+    },
+    {
+      "episode_id": "in-rectangle--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4753,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5339,
+        "passed_cases": 222,
+        "total_cases": 222
+      }
+    },
+    {
+      "episode_id": "in-rectangle--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 3.3729,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6591,
+        "passed_cases": 222,
+        "total_cases": 222
+      }
+    },
+    {
+      "episode_id": "in-rectangle--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7001,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6186,
+        "passed_cases": 222,
+        "total_cases": 222
+      }
+    },
+    {
+      "episode_id": "even-split--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6952,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6851,
+        "passed_cases": 144,
+        "total_cases": 156
+      }
+    },
+    {
+      "episode_id": "even-split--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7677,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.9316,
+        "passed_cases": 156,
+        "total_cases": 156
+      }
+    },
+    {
+      "episode_id": "even-split--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 1.2855,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.8914,
+        "passed_cases": 156,
+        "total_cases": 156
+      }
+    },
+    {
+      "episode_id": "even-split--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7211,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7297,
+        "passed_cases": 156,
+        "total_cases": 156
+      }
+    },
+    {
+      "episode_id": "heart-rate-zone--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.7694,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 1.0355,
+        "passed_cases": 748,
+        "total_cases": 752
+      }
+    },
+    {
+      "episode_id": "heart-rate-zone--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6639,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6635,
+        "passed_cases": 752,
+        "total_cases": 752
+      }
+    },
+    {
+      "episode_id": "heart-rate-zone--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.9043,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5536,
+        "passed_cases": 752,
+        "total_cases": 752
+      }
+    },
+    {
+      "episode_id": "heart-rate-zone--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5945,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7632,
+        "passed_cases": 752,
+        "total_cases": 752
+      }
+    },
+    {
+      "episode_id": "check-digit--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6491,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7279,
+        "passed_cases": 336,
+        "total_cases": 336
+      }
+    },
+    {
+      "episode_id": "check-digit--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6469,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.688,
+        "passed_cases": 262,
+        "total_cases": 336
+      }
+    },
+    {
+      "episode_id": "check-digit--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6263,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5726,
+        "passed_cases": 336,
+        "total_cases": 336
+      }
+    },
+    {
+      "episode_id": "check-digit--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5782,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6306,
+        "passed_cases": 336,
+        "total_cases": 336
+      }
+    },
+    {
+      "episode_id": "check-digit--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.796,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7664,
+        "passed_cases": 336,
+        "total_cases": 336
+      }
+    },
+    {
+      "episode_id": "ends-match--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.7392,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5557,
+        "passed_cases": 99,
+        "total_cases": 129
+      }
+    },
+    {
+      "episode_id": "ends-match--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.597,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6394,
+        "passed_cases": 129,
+        "total_cases": 129
+      }
+    },
+    {
+      "episode_id": "ends-match--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.8932,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6514,
+        "passed_cases": 129,
+        "total_cases": 129
+      }
+    },
+    {
+      "episode_id": "lucky-ticket--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6415,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7673,
+        "passed_cases": 270,
+        "total_cases": 270
+      }
+    },
+    {
+      "episode_id": "lucky-ticket--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7289,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7741,
+        "passed_cases": 270,
+        "total_cases": 270
+      }
+    },
+    {
+      "episode_id": "lucky-ticket--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6365,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6468,
+        "passed_cases": 270,
+        "total_cases": 270
+      }
+    },
+    {
+      "episode_id": "index-in-range--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7549,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.8697,
+        "passed_cases": 126,
+        "total_cases": 126
+      }
+    },
+    {
+      "episode_id": "index-in-range--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 1.5242,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 2.2146,
+        "passed_cases": 115,
+        "total_cases": 126
+      }
+    },
+    {
+      "episode_id": "luhn-checksum--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 1.7831,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.853,
+        "passed_cases": 340,
+        "total_cases": 340
+      }
+    },
+    {
+      "episode_id": "luhn-checksum--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5869,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6612,
+        "passed_cases": 311,
+        "total_cases": 340
+      }
+    },
+    {
+      "episode_id": "luhn-checksum--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6409,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6273,
+        "passed_cases": 340,
+        "total_cases": 340
+      }
+    },
+    {
+      "episode_id": "arithmetic-steps--1.7b-base",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7989,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 1.0187,
+        "passed_cases": 255,
+        "total_cases": 255
+      }
+    },
+    {
+      "episode_id": "arithmetic-steps--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 1.0361,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6904,
+        "passed_cases": 255,
+        "total_cases": 255
+      }
+    },
+    {
+      "episode_id": "arithmetic-steps--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.756,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7853,
+        "passed_cases": 255,
+        "total_cases": 255
+      }
+    },
+    {
+      "episode_id": "arithmetic-steps--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.607,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6202,
+        "passed_cases": 255,
+        "total_cases": 255
+      }
+    },
+    {
+      "episode_id": "drawdown-limit--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5362,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6863,
+        "passed_cases": 1334,
+        "total_cases": 1363
+      }
+    },
+    {
+      "episode_id": "safe-average--1.7b-base",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7076,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.9213,
+        "passed_cases": 155,
+        "total_cases": 155
+      }
+    },
+    {
+      "episode_id": "safe-average--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5805,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.638,
+        "passed_cases": 155,
+        "total_cases": 155
+      }
+    },
+    {
+      "episode_id": "safe-average--1.7b-notes",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6639,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.551,
+        "passed_cases": 155,
+        "total_cases": 155
+      }
+    },
+    {
+      "episode_id": "safe-average--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6876,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7648,
+        "passed_cases": 155,
+        "total_cases": 155
+      }
+    },
+    {
+      "episode_id": "only-in-one--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6701,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7666,
+        "passed_cases": 519,
+        "total_cases": 519
+      }
+    },
+    {
+      "episode_id": "only-in-one--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6073,
+        "passed_cases": 1,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.7477,
+        "passed_cases": 167,
+        "total_cases": 519
+      }
+    },
+    {
+      "episode_id": "only-in-one--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6445,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5941,
+        "passed_cases": 519,
+        "total_cases": 519
+      }
+    },
+    {
+      "episode_id": "only-in-one--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5711,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6416,
+        "passed_cases": 519,
+        "total_cases": 519
+      }
+    },
+    {
+      "episode_id": "lookup-with-default--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6192,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6841,
+        "passed_cases": 103,
+        "total_cases": 103
+      }
+    },
+    {
+      "episode_id": "lookup-with-default--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.7276,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5924,
+        "passed_cases": 36,
+        "total_cases": 103
+      }
+    },
+    {
+      "episode_id": "lookup-with-default--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6116,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6368,
+        "passed_cases": 103,
+        "total_cases": 103
+      }
+    },
+    {
+      "episode_id": "lookup-with-default--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6079,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5911,
+        "passed_cases": 103,
+        "total_cases": 103
+      }
+    },
+    {
+      "episode_id": "lookup-with-default--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.9394,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7259,
+        "passed_cases": 103,
+        "total_cases": 103
+      }
+    },
+    {
+      "episode_id": "trimmed-nonempty--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6425,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6594,
+        "passed_cases": 84,
+        "total_cases": 155
+      }
+    },
+    {
+      "episode_id": "trimmed-nonempty--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7519,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.655,
+        "passed_cases": 155,
+        "total_cases": 155
+      }
+    },
+    {
+      "episode_id": "trimmed-nonempty--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5918,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6884,
+        "passed_cases": 155,
+        "total_cases": 155
+      }
+    },
+    {
+      "episode_id": "local-peaks--1.7b-base",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.9328,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.8633,
+        "passed_cases": 120,
+        "total_cases": 120
+      }
+    },
+    {
+      "episode_id": "local-peaks--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6953,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7199,
+        "passed_cases": 120,
+        "total_cases": 120
+      }
+    },
+    {
+      "episode_id": "local-peaks--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5711,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6104,
+        "passed_cases": 120,
+        "total_cases": 120
+      }
+    },
+    {
+      "episode_id": "local-peaks--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.8189,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6803,
+        "passed_cases": 120,
+        "total_cases": 120
+      }
+    },
+    {
+      "episode_id": "insert-position--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.595,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.9664,
+        "passed_cases": 418,
+        "total_cases": 418
+      }
+    },
+    {
+      "episode_id": "insert-position--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5618,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5807,
+        "passed_cases": 279,
+        "total_cases": 418
+      }
+    },
+    {
+      "episode_id": "insert-position--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7126,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6094,
+        "passed_cases": 263,
+        "total_cases": 418
+      }
+    },
+    {
+      "episode_id": "closest-value--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6054,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6645,
+        "passed_cases": 585,
+        "total_cases": 671
+      }
+    },
+    {
+      "episode_id": "closest-value--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.656,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6804,
+        "passed_cases": 671,
+        "total_cases": 671
+      }
+    },
+    {
+      "episode_id": "closest-value--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5954,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6269,
+        "passed_cases": 651,
+        "total_cases": 671
+      }
+    },
+    {
+      "episode_id": "closest-value--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.8203,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 1.067,
+        "passed_cases": 671,
+        "total_cases": 671
+      }
+    },
+    {
+      "episode_id": "top-scorers--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.8111,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6764,
+        "passed_cases": 202,
+        "total_cases": 340
+      }
+    },
+    {
+      "episode_id": "top-scorers--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7308,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7177,
+        "passed_cases": 340,
+        "total_cases": 340
+      }
+    },
+    {
+      "episode_id": "top-scorers--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6315,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7435,
+        "passed_cases": 340,
+        "total_cases": 340
+      }
+    },
+    {
+      "episode_id": "every-nth--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6402,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.942,
+        "passed_cases": 483,
+        "total_cases": 483
+      }
+    },
+    {
+      "episode_id": "every-nth--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 1.1533,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6554,
+        "passed_cases": 171,
+        "total_cases": 483
+      }
+    },
+    {
+      "episode_id": "every-nth--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6698,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7554,
+        "passed_cases": 483,
+        "total_cases": 483
+      }
+    },
+    {
+      "episode_id": "every-nth--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.8372,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7327,
+        "passed_cases": 483,
+        "total_cases": 483
+      }
+    },
+    {
+      "episode_id": "every-nth--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.8206,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6641,
+        "passed_cases": 483,
+        "total_cases": 483
+      }
+    },
+    {
+      "episode_id": "window-sums--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5569,
+        "passed_cases": 1,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.7961,
+        "passed_cases": 112,
+        "total_cases": 1364
+      }
+    },
+    {
+      "episode_id": "histogram-buckets--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6664,
+        "passed_cases": 1,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.641,
+        "passed_cases": 3,
+        "total_cases": 622
+      }
+    },
+    {
+      "episode_id": "merge-intervals--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6834,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.7869,
+        "passed_cases": 573,
+        "total_cases": 1049
+      }
+    },
+    {
+      "episode_id": "merge-intervals--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6677,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6422,
+        "passed_cases": 1049,
+        "total_cases": 1049
+      }
+    },
+    {
+      "episode_id": "merge-intervals--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6409,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.686,
+        "passed_cases": 1049,
+        "total_cases": 1049
+      }
+    },
+    {
+      "episode_id": "merge-intervals--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7416,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.9112,
+        "passed_cases": 1049,
+        "total_cases": 1049
+      }
+    },
+    {
+      "episode_id": "invert-mapping--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.754,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.7292,
+        "passed_cases": 20,
+        "total_cases": 79
+      }
+    },
+    {
+      "episode_id": "invert-mapping--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5978,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.994,
+        "passed_cases": 79,
+        "total_cases": 79
+      }
+    },
+    {
+      "episode_id": "invert-mapping--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6488,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6388,
+        "passed_cases": 79,
+        "total_cases": 79
+      }
+    },
+    {
+      "episode_id": "last-value-per-key--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5442,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.7875,
+        "passed_cases": 152,
+        "total_cases": 340
+      }
+    },
+    {
+      "episode_id": "last-value-per-key--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6155,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.8758,
+        "passed_cases": 340,
+        "total_cases": 340
+      }
+    },
+    {
+      "episode_id": "last-value-per-key--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6208,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.8487,
+        "passed_cases": 200,
+        "total_cases": 340
+      }
+    },
+    {
+      "episode_id": "last-value-per-key--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7039,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.9538,
+        "passed_cases": 340,
+        "total_cases": 340
+      }
+    },
+    {
+      "episode_id": "move-zeros-to-end--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6994,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6689,
+        "passed_cases": 177,
+        "total_cases": 339
+      }
+    },
+    {
+      "episode_id": "move-zeros-to-end--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6415,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6013,
+        "passed_cases": 339,
+        "total_cases": 339
+      }
+    },
+    {
+      "episode_id": "move-zeros-to-end--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7199,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7409,
+        "passed_cases": 339,
+        "total_cases": 339
+      }
+    },
+    {
+      "episode_id": "rock-paper-scissors--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6643,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.7111,
+        "passed_cases": 4,
+        "total_cases": 6
+      }
+    },
+    {
+      "episode_id": "rock-paper-scissors--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7283,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5841,
+        "passed_cases": 6,
+        "total_cases": 6
+      }
+    },
+    {
+      "episode_id": "season-of-month--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6285,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.8961,
+        "passed_cases": 9,
+        "total_cases": 9
+      }
+    },
+    {
+      "episode_id": "life-cell--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6486,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7743,
+        "passed_cases": 15,
+        "total_cases": 15
+      }
+    },
+    {
+      "episode_id": "life-cell--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 1.0266,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.711,
+        "passed_cases": 15,
+        "total_cases": 15
+      }
+    },
+    {
+      "episode_id": "stop-at-limit--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.9474,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 1.0015,
+        "passed_cases": 779,
+        "total_cases": 1363
+      }
+    },
+    {
+      "episode_id": "stop-at-limit--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 1.101,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.8167,
+        "passed_cases": 1363,
+        "total_cases": 1363
+      }
+    },
+    {
+      "episode_id": "stop-at-limit--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 1.6108,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6883,
+        "passed_cases": 1363,
+        "total_cases": 1363
+      }
+    },
+    {
+      "episode_id": "bounce-count--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 1.2068,
+        "passed_cases": 1,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5249,
+        "passed_cases": 32,
+        "total_cases": 46
+      }
+    },
+    {
+      "episode_id": "bounce-count--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7087,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5104,
+        "passed_cases": 33,
+        "total_cases": 46
+      }
+    },
+    {
+      "episode_id": "bounce-count--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5756,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5413,
+        "passed_cases": 33,
+        "total_cases": 46
+      }
+    },
+    {
+      "episode_id": "tennis-game--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.9559,
+        "passed_cases": 1,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.889,
+        "passed_cases": 55,
+        "total_cases": 61
+      }
+    },
+    {
+      "episode_id": "tennis-game--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.8732,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6015,
+        "passed_cases": 61,
+        "total_cases": 61
+      }
+    },
+    {
+      "episode_id": "tennis-game--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 1.2455,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.494,
+        "passed_cases": 61,
+        "total_cases": 61
+      }
+    },
+    {
+      "episode_id": "snail-climb--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.569,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.7369,
+        "passed_cases": 177,
+        "total_cases": 177
+      }
+    },
+    {
+      "episode_id": "snail-climb--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4844,
+        "passed_cases": 0,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5068,
+        "passed_cases": 93,
+        "total_cases": 177
+      }
+    },
+    {
+      "episode_id": "snail-climb--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5199,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4948,
+        "passed_cases": 177,
+        "total_cases": 177
+      }
+    },
+    {
+      "episode_id": "snail-climb--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4794,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 2.6358,
+        "passed_cases": 177,
+        "total_cases": 177
+      }
+    },
+    {
+      "episode_id": "round-robin-turn--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.762,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5655,
+        "passed_cases": 77,
+        "total_cases": 77
+      }
+    },
+    {
+      "episode_id": "round-robin-turn--1.7b-base",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5497,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5259,
+        "passed_cases": 77,
+        "total_cases": 77
+      }
+    },
+    {
+      "episode_id": "seat-row--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4873,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5732,
+        "passed_cases": 147,
+        "total_cases": 147
+      }
+    },
+    {
+      "episode_id": "seat-row--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4714,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5868,
+        "passed_cases": 90,
+        "total_cases": 147
+      }
+    },
+    {
+      "episode_id": "seat-row--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6019,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4859,
+        "passed_cases": 147,
+        "total_cases": 147
+      }
+    },
+    {
+      "episode_id": "seat-row--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4936,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.473,
+        "passed_cases": 147,
+        "total_cases": 147
+      }
+    },
+    {
+      "episode_id": "seat-row--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4924,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5646,
+        "passed_cases": 147,
+        "total_cases": 147
+      }
+    },
+    {
+      "episode_id": "hour-labels--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.461,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5494,
+        "passed_cases": 297,
+        "total_cases": 297
+      }
+    },
+    {
+      "episode_id": "hour-labels--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4941,
+        "passed_cases": 0,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4786,
+        "passed_cases": 0,
+        "total_cases": 297
+      }
+    },
+    {
+      "episode_id": "hour-labels--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6787,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6072,
+        "passed_cases": 297,
+        "total_cases": 297
+      }
+    },
+    {
+      "episode_id": "hour-labels--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4906,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5182,
+        "passed_cases": 297,
+        "total_cases": 297
+      }
+    },
+    {
+      "episode_id": "hour-labels--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4894,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5084,
+        "passed_cases": 297,
+        "total_cases": 297
+      }
+    },
+    {
+      "episode_id": "ordered-pairs--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.51,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4964,
+        "passed_cases": 10,
+        "total_cases": 10
+      }
+    },
+    {
+      "episode_id": "ordered-pairs--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5704,
+        "passed_cases": 1,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5773,
+        "passed_cases": 0,
+        "total_cases": 10
+      }
+    },
+    {
+      "episode_id": "ordered-pairs--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5182,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.507,
+        "passed_cases": 10,
+        "total_cases": 10
+      }
+    },
+    {
+      "episode_id": "ordered-pairs--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4717,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4521,
+        "passed_cases": 10,
+        "total_cases": 10
+      }
+    },
+    {
+      "episode_id": "dice-score--0.6b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4661,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4943,
+        "passed_cases": 340,
+        "total_cases": 340
+      }
+    },
+    {
+      "episode_id": "dice-score--1.7b-base",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6775,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.9466,
+        "passed_cases": 340,
+        "total_cases": 340
+      }
+    },
+    {
+      "episode_id": "yearly-interest--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5843,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 1.3346,
+        "passed_cases": 154,
+        "total_cases": 213
+      }
+    },
+    {
+      "episode_id": "yearly-interest--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6703,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.502,
+        "passed_cases": 213,
+        "total_cases": 213
+      }
+    },
+    {
+      "episode_id": "yearly-interest--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.6224,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6317,
+        "passed_cases": 159,
+        "total_cases": 213
+      }
+    },
+    {
+      "episode_id": "stack-machine--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5977,
+        "passed_cases": 1,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.6311,
+        "passed_cases": 242,
+        "total_cases": 481
+      }
+    },
+    {
+      "episode_id": "stack-machine--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5581,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.534,
+        "passed_cases": 179,
+        "total_cases": 481
+      }
+    },
+    {
+      "episode_id": "stack-machine--1.7b-notes",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5515,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4869,
+        "passed_cases": 481,
+        "total_cases": 481
+      }
+    },
+    {
+      "episode_id": "stack-machine--1.7b-rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5954,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5129,
+        "passed_cases": 179,
+        "total_cases": 481
+      }
+    },
+    {
+      "episode_id": "inventory-restock--1.7b-base",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.7787,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5644,
+        "passed_cases": 416,
+        "total_cases": 479
+      }
+    },
+    {
+      "episode_id": "inventory-restock--1.7b-plain",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5055,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5403,
+        "passed_cases": 479,
+        "total_cases": 479
+      }
+    }
+  ],
+  "infrastructure_timeouts": [],
+  "arms": {
+    "0.6b-rl": {
+      "tasks": 48,
+      "successes": 17,
+      "invalid_actions": 7,
+      "output_tokens": 14061,
+      "episodes_with_failed_test": 29,
+      "revised_after_failure": 17,
+      "retested_after_revision": 16,
+      "submitted_on_failure": 0,
+      "recovered": 1,
+      "later_edits": 84,
+      "repeated_edits": 64,
+      "real_recoveries": 1
+    },
+    "1.7b-base": {
+      "tasks": 48,
+      "successes": 5,
+      "invalid_actions": 23,
+      "output_tokens": 11642,
+      "episodes_with_failed_test": 38,
+      "revised_after_failure": 5,
+      "retested_after_revision": 4,
+      "submitted_on_failure": 28,
+      "recovered": 2,
+      "later_edits": 28,
+      "repeated_edits": 25,
+      "real_recoveries": 0
+    },
+    "1.7b-plain": {
+      "tasks": 48,
+      "successes": 27,
+      "invalid_actions": 17,
+      "output_tokens": 16329,
+      "episodes_with_failed_test": 20,
+      "revised_after_failure": 15,
+      "retested_after_revision": 15,
+      "submitted_on_failure": 0,
+      "recovered": 3,
+      "later_edits": 52,
+      "repeated_edits": 25,
+      "real_recoveries": 2
+    },
+    "1.7b-notes": {
+      "tasks": 48,
+      "successes": 16,
+      "invalid_actions": 8,
+      "output_tokens": 18664,
+      "episodes_with_failed_test": 29,
+      "revised_after_failure": 17,
+      "retested_after_revision": 17,
+      "submitted_on_failure": 0,
+      "recovered": 1,
+      "later_edits": 82,
+      "repeated_edits": 62,
+      "real_recoveries": 1
+    },
+    "1.7b-rl": {
+      "tasks": 48,
+      "successes": 29,
+      "invalid_actions": 11,
+      "output_tokens": 9781,
+      "episodes_with_failed_test": 21,
+      "revised_after_failure": 17,
+      "retested_after_revision": 17,
+      "submitted_on_failure": 0,
+      "recovered": 5,
+      "later_edits": 51,
+      "repeated_edits": 25,
+      "real_recoveries": 5
+    }
+  },
+  "rows": [
+    {
+      "episode_id": "semver-parts--0.6b-rl",
+      "task_id": "semver-parts",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "semver-parts--1.7b-base",
+      "task_id": "semver-parts",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "semver-parts--1.7b-plain",
+      "task_id": "semver-parts",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "semver-parts--1.7b-notes",
+      "task_id": "semver-parts",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "semver-parts--1.7b-rl",
+      "task_id": "semver-parts",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "chess-square--0.6b-rl",
+      "task_id": "chess-square",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "chess-square--1.7b-base",
+      "task_id": "chess-square",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "chess-square--1.7b-plain",
+      "task_id": "chess-square",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "chess-square--1.7b-notes",
+      "task_id": "chess-square",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "chess-square--1.7b-rl",
+      "task_id": "chess-square",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "price-format--0.6b-rl",
+      "task_id": "price-format",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "price-format--1.7b-base",
+      "task_id": "price-format",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "price-format--1.7b-plain",
+      "task_id": "price-format",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 1,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "price-format--1.7b-notes",
+      "task_id": "price-format",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "price-format--1.7b-rl",
+      "task_id": "price-format",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 1,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "alternating-signs--0.6b-rl",
+      "task_id": "alternating-signs",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "alternating-signs--1.7b-base",
+      "task_id": "alternating-signs",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "alternating-signs--1.7b-plain",
+      "task_id": "alternating-signs",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 0,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "alternating-signs--1.7b-notes",
+      "task_id": "alternating-signs",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "alternating-signs--1.7b-rl",
+      "task_id": "alternating-signs",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 0,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "exam-pass--0.6b-rl",
+      "task_id": "exam-pass",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "exam-pass--1.7b-base",
+      "task_id": "exam-pass",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "exam-pass--1.7b-plain",
+      "task_id": "exam-pass",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "exam-pass--1.7b-notes",
+      "task_id": "exam-pass",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "exam-pass--1.7b-rl",
+      "task_id": "exam-pass",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "in-rectangle--0.6b-rl",
+      "task_id": "in-rectangle",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "in-rectangle--1.7b-base",
+      "task_id": "in-rectangle",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 0,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "in-rectangle--1.7b-plain",
+      "task_id": "in-rectangle",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "in-rectangle--1.7b-notes",
+      "task_id": "in-rectangle",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "in-rectangle--1.7b-rl",
+      "task_id": "in-rectangle",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "even-split--0.6b-rl",
+      "task_id": "even-split",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "even-split--1.7b-base",
+      "task_id": "even-split",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "even-split--1.7b-plain",
+      "task_id": "even-split",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "even-split--1.7b-notes",
+      "task_id": "even-split",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "even-split--1.7b-rl",
+      "task_id": "even-split",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "heart-rate-zone--0.6b-rl",
+      "task_id": "heart-rate-zone",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "heart-rate-zone--1.7b-base",
+      "task_id": "heart-rate-zone",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 0,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "heart-rate-zone--1.7b-plain",
+      "task_id": "heart-rate-zone",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "heart-rate-zone--1.7b-notes",
+      "task_id": "heart-rate-zone",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "heart-rate-zone--1.7b-rl",
+      "task_id": "heart-rate-zone",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "check-digit--0.6b-rl",
+      "task_id": "check-digit",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "check-digit--1.7b-base",
+      "task_id": "check-digit",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "check-digit--1.7b-plain",
+      "task_id": "check-digit",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "check-digit--1.7b-notes",
+      "task_id": "check-digit",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "check-digit--1.7b-rl",
+      "task_id": "check-digit",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "ends-match--0.6b-rl",
+      "task_id": "ends-match",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "ends-match--1.7b-base",
+      "task_id": "ends-match",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "ends-match--1.7b-plain",
+      "task_id": "ends-match",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "ends-match--1.7b-notes",
+      "task_id": "ends-match",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "ends-match--1.7b-rl",
+      "task_id": "ends-match",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "lucky-ticket--0.6b-rl",
+      "task_id": "lucky-ticket",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "lucky-ticket--1.7b-base",
+      "task_id": "lucky-ticket",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "lucky-ticket--1.7b-plain",
+      "task_id": "lucky-ticket",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "lucky-ticket--1.7b-notes",
+      "task_id": "lucky-ticket",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "lucky-ticket--1.7b-rl",
+      "task_id": "lucky-ticket",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "index-in-range--0.6b-rl",
+      "task_id": "index-in-range",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "index-in-range--1.7b-base",
+      "task_id": "index-in-range",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "index-in-range--1.7b-plain",
+      "task_id": "index-in-range",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "index-in-range--1.7b-notes",
+      "task_id": "index-in-range",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "index-in-range--1.7b-rl",
+      "task_id": "index-in-range",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "luhn-checksum--0.6b-rl",
+      "task_id": "luhn-checksum",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "luhn-checksum--1.7b-base",
+      "task_id": "luhn-checksum",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "luhn-checksum--1.7b-plain",
+      "task_id": "luhn-checksum",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 1,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "luhn-checksum--1.7b-notes",
+      "task_id": "luhn-checksum",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "luhn-checksum--1.7b-rl",
+      "task_id": "luhn-checksum",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 1,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "arithmetic-steps--0.6b-rl",
+      "task_id": "arithmetic-steps",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "arithmetic-steps--1.7b-base",
+      "task_id": "arithmetic-steps",
+      "condition": "1.7b-base",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 2,
+        "later_edits": 1,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "arithmetic-steps--1.7b-plain",
+      "task_id": "arithmetic-steps",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "arithmetic-steps--1.7b-notes",
+      "task_id": "arithmetic-steps",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "arithmetic-steps--1.7b-rl",
+      "task_id": "arithmetic-steps",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "consistent-indentation--0.6b-rl",
+      "task_id": "consistent-indentation",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "consistent-indentation--1.7b-base",
+      "task_id": "consistent-indentation",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "consistent-indentation--1.7b-plain",
+      "task_id": "consistent-indentation",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "consistent-indentation--1.7b-notes",
+      "task_id": "consistent-indentation",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "consistent-indentation--1.7b-rl",
+      "task_id": "consistent-indentation",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "drawdown-limit--0.6b-rl",
+      "task_id": "drawdown-limit",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "drawdown-limit--1.7b-base",
+      "task_id": "drawdown-limit",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "drawdown-limit--1.7b-plain",
+      "task_id": "drawdown-limit",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "drawdown-limit--1.7b-notes",
+      "task_id": "drawdown-limit",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "drawdown-limit--1.7b-rl",
+      "task_id": "drawdown-limit",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "safe-average--0.6b-rl",
+      "task_id": "safe-average",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "safe-average--1.7b-base",
+      "task_id": "safe-average",
+      "condition": "1.7b-base",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "safe-average--1.7b-plain",
+      "task_id": "safe-average",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "safe-average--1.7b-notes",
+      "task_id": "safe-average",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 0,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "safe-average--1.7b-rl",
+      "task_id": "safe-average",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "only-in-one--0.6b-rl",
+      "task_id": "only-in-one",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 3,
+        "later_edits": 2,
+        "repeated_edits": 0,
+        "real_recovery": true
+      }
+    },
+    {
+      "episode_id": "only-in-one--1.7b-base",
+      "task_id": "only-in-one",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 3,
+        "later_edits": 2,
+        "repeated_edits": 1,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "only-in-one--1.7b-plain",
+      "task_id": "only-in-one",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 3,
+        "later_edits": 2,
+        "repeated_edits": 0,
+        "real_recovery": true
+      }
+    },
+    {
+      "episode_id": "only-in-one--1.7b-notes",
+      "task_id": "only-in-one",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "only-in-one--1.7b-rl",
+      "task_id": "only-in-one",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 3,
+        "later_edits": 2,
+        "repeated_edits": 0,
+        "real_recovery": true
+      }
+    },
+    {
+      "episode_id": "lookup-with-default--0.6b-rl",
+      "task_id": "lookup-with-default",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "lookup-with-default--1.7b-base",
+      "task_id": "lookup-with-default",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "lookup-with-default--1.7b-plain",
+      "task_id": "lookup-with-default",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "lookup-with-default--1.7b-notes",
+      "task_id": "lookup-with-default",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "lookup-with-default--1.7b-rl",
+      "task_id": "lookup-with-default",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "trimmed-nonempty--0.6b-rl",
+      "task_id": "trimmed-nonempty",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 1,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "trimmed-nonempty--1.7b-base",
+      "task_id": "trimmed-nonempty",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "trimmed-nonempty--1.7b-plain",
+      "task_id": "trimmed-nonempty",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "trimmed-nonempty--1.7b-notes",
+      "task_id": "trimmed-nonempty",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "trimmed-nonempty--1.7b-rl",
+      "task_id": "trimmed-nonempty",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "local-peaks--0.6b-rl",
+      "task_id": "local-peaks",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "local-peaks--1.7b-base",
+      "task_id": "local-peaks",
+      "condition": "1.7b-base",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "local-peaks--1.7b-plain",
+      "task_id": "local-peaks",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "local-peaks--1.7b-notes",
+      "task_id": "local-peaks",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "local-peaks--1.7b-rl",
+      "task_id": "local-peaks",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "insert-position--0.6b-rl",
+      "task_id": "insert-position",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "insert-position--1.7b-base",
+      "task_id": "insert-position",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "insert-position--1.7b-plain",
+      "task_id": "insert-position",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "insert-position--1.7b-notes",
+      "task_id": "insert-position",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 3,
+        "later_edits": 2,
+        "repeated_edits": 1,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "insert-position--1.7b-rl",
+      "task_id": "insert-position",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "closest-value--0.6b-rl",
+      "task_id": "closest-value",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 2,
+        "later_edits": 1,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "closest-value--1.7b-base",
+      "task_id": "closest-value",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 3,
+        "later_edits": 2,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "closest-value--1.7b-plain",
+      "task_id": "closest-value",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "closest-value--1.7b-notes",
+      "task_id": "closest-value",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "closest-value--1.7b-rl",
+      "task_id": "closest-value",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "top-scorers--0.6b-rl",
+      "task_id": "top-scorers",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "top-scorers--1.7b-base",
+      "task_id": "top-scorers",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "top-scorers--1.7b-plain",
+      "task_id": "top-scorers",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "top-scorers--1.7b-notes",
+      "task_id": "top-scorers",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "top-scorers--1.7b-rl",
+      "task_id": "top-scorers",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "every-nth--0.6b-rl",
+      "task_id": "every-nth",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "every-nth--1.7b-base",
+      "task_id": "every-nth",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "every-nth--1.7b-plain",
+      "task_id": "every-nth",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "every-nth--1.7b-notes",
+      "task_id": "every-nth",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "every-nth--1.7b-rl",
+      "task_id": "every-nth",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "window-sums--0.6b-rl",
+      "task_id": "window-sums",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "window-sums--1.7b-base",
+      "task_id": "window-sums",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "window-sums--1.7b-plain",
+      "task_id": "window-sums",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "window-sums--1.7b-notes",
+      "task_id": "window-sums",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "window-sums--1.7b-rl",
+      "task_id": "window-sums",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "histogram-buckets--0.6b-rl",
+      "task_id": "histogram-buckets",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "histogram-buckets--1.7b-base",
+      "task_id": "histogram-buckets",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 3,
+        "later_edits": 2,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "histogram-buckets--1.7b-plain",
+      "task_id": "histogram-buckets",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "histogram-buckets--1.7b-notes",
+      "task_id": "histogram-buckets",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "histogram-buckets--1.7b-rl",
+      "task_id": "histogram-buckets",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 1,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "join-with-separator--0.6b-rl",
+      "task_id": "join-with-separator",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "join-with-separator--1.7b-base",
+      "task_id": "join-with-separator",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "join-with-separator--1.7b-plain",
+      "task_id": "join-with-separator",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 1,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "join-with-separator--1.7b-notes",
+      "task_id": "join-with-separator",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "join-with-separator--1.7b-rl",
+      "task_id": "join-with-separator",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 1,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "merge-intervals--0.6b-rl",
+      "task_id": "merge-intervals",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "merge-intervals--1.7b-base",
+      "task_id": "merge-intervals",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "merge-intervals--1.7b-plain",
+      "task_id": "merge-intervals",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "merge-intervals--1.7b-notes",
+      "task_id": "merge-intervals",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "merge-intervals--1.7b-rl",
+      "task_id": "merge-intervals",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "invert-mapping--0.6b-rl",
+      "task_id": "invert-mapping",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "invert-mapping--1.7b-base",
+      "task_id": "invert-mapping",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "invert-mapping--1.7b-plain",
+      "task_id": "invert-mapping",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "invert-mapping--1.7b-notes",
+      "task_id": "invert-mapping",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 1,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "invert-mapping--1.7b-rl",
+      "task_id": "invert-mapping",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "last-value-per-key--0.6b-rl",
+      "task_id": "last-value-per-key",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "last-value-per-key--1.7b-base",
+      "task_id": "last-value-per-key",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "last-value-per-key--1.7b-plain",
+      "task_id": "last-value-per-key",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "last-value-per-key--1.7b-notes",
+      "task_id": "last-value-per-key",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "last-value-per-key--1.7b-rl",
+      "task_id": "last-value-per-key",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "move-zeros-to-end--0.6b-rl",
+      "task_id": "move-zeros-to-end",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "move-zeros-to-end--1.7b-base",
+      "task_id": "move-zeros-to-end",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "move-zeros-to-end--1.7b-plain",
+      "task_id": "move-zeros-to-end",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "move-zeros-to-end--1.7b-notes",
+      "task_id": "move-zeros-to-end",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "move-zeros-to-end--1.7b-rl",
+      "task_id": "move-zeros-to-end",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 3,
+        "later_edits": 2,
+        "repeated_edits": 1,
+        "real_recovery": true
+      }
+    },
+    {
+      "episode_id": "rock-paper-scissors--0.6b-rl",
+      "task_id": "rock-paper-scissors",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "rock-paper-scissors--1.7b-base",
+      "task_id": "rock-paper-scissors",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "rock-paper-scissors--1.7b-plain",
+      "task_id": "rock-paper-scissors",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "rock-paper-scissors--1.7b-notes",
+      "task_id": "rock-paper-scissors",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "rock-paper-scissors--1.7b-rl",
+      "task_id": "rock-paper-scissors",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 2,
+        "later_edits": 1,
+        "repeated_edits": 0,
+        "real_recovery": true
+      }
+    },
+    {
+      "episode_id": "ordinal-suffix--0.6b-rl",
+      "task_id": "ordinal-suffix",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 0,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "ordinal-suffix--1.7b-base",
+      "task_id": "ordinal-suffix",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "ordinal-suffix--1.7b-plain",
+      "task_id": "ordinal-suffix",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 0,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "ordinal-suffix--1.7b-notes",
+      "task_id": "ordinal-suffix",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 0,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "ordinal-suffix--1.7b-rl",
+      "task_id": "ordinal-suffix",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 0,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "season-of-month--0.6b-rl",
+      "task_id": "season-of-month",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "season-of-month--1.7b-base",
+      "task_id": "season-of-month",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "season-of-month--1.7b-plain",
+      "task_id": "season-of-month",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "season-of-month--1.7b-notes",
+      "task_id": "season-of-month",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "season-of-month--1.7b-rl",
+      "task_id": "season-of-month",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "life-cell--0.6b-rl",
+      "task_id": "life-cell",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "life-cell--1.7b-base",
+      "task_id": "life-cell",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "life-cell--1.7b-plain",
+      "task_id": "life-cell",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 0,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "life-cell--1.7b-notes",
+      "task_id": "life-cell",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "life-cell--1.7b-rl",
+      "task_id": "life-cell",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 2,
+        "later_edits": 1,
+        "repeated_edits": 0,
+        "real_recovery": true
+      }
+    },
+    {
+      "episode_id": "stop-at-limit--0.6b-rl",
+      "task_id": "stop-at-limit",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "stop-at-limit--1.7b-base",
+      "task_id": "stop-at-limit",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 3,
+        "later_edits": 2,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "stop-at-limit--1.7b-plain",
+      "task_id": "stop-at-limit",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "stop-at-limit--1.7b-notes",
+      "task_id": "stop-at-limit",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "stop-at-limit--1.7b-rl",
+      "task_id": "stop-at-limit",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "bounce-count--0.6b-rl",
+      "task_id": "bounce-count",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 1,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "bounce-count--1.7b-base",
+      "task_id": "bounce-count",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "bounce-count--1.7b-plain",
+      "task_id": "bounce-count",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "bounce-count--1.7b-notes",
+      "task_id": "bounce-count",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "bounce-count--1.7b-rl",
+      "task_id": "bounce-count",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "tennis-game--0.6b-rl",
+      "task_id": "tennis-game",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "tennis-game--1.7b-base",
+      "task_id": "tennis-game",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "tennis-game--1.7b-plain",
+      "task_id": "tennis-game",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "tennis-game--1.7b-notes",
+      "task_id": "tennis-game",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "tennis-game--1.7b-rl",
+      "task_id": "tennis-game",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "snail-climb--0.6b-rl",
+      "task_id": "snail-climb",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "snail-climb--1.7b-base",
+      "task_id": "snail-climb",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "snail-climb--1.7b-plain",
+      "task_id": "snail-climb",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "snail-climb--1.7b-notes",
+      "task_id": "snail-climb",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 1,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "snail-climb--1.7b-rl",
+      "task_id": "snail-climb",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "round-robin-turn--0.6b-rl",
+      "task_id": "round-robin-turn",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "round-robin-turn--1.7b-base",
+      "task_id": "round-robin-turn",
+      "condition": "1.7b-base",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "round-robin-turn--1.7b-plain",
+      "task_id": "round-robin-turn",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "round-robin-turn--1.7b-notes",
+      "task_id": "round-robin-turn",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "round-robin-turn--1.7b-rl",
+      "task_id": "round-robin-turn",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "seat-row--0.6b-rl",
+      "task_id": "seat-row",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "seat-row--1.7b-base",
+      "task_id": "seat-row",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 0,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "seat-row--1.7b-plain",
+      "task_id": "seat-row",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "seat-row--1.7b-notes",
+      "task_id": "seat-row",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "seat-row--1.7b-rl",
+      "task_id": "seat-row",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "hour-labels--0.6b-rl",
+      "task_id": "hour-labels",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "hour-labels--1.7b-base",
+      "task_id": "hour-labels",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 3,
+        "later_edits": 2,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "hour-labels--1.7b-plain",
+      "task_id": "hour-labels",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 2,
+        "later_edits": 1,
+        "repeated_edits": 0,
+        "real_recovery": true
+      }
+    },
+    {
+      "episode_id": "hour-labels--1.7b-notes",
+      "task_id": "hour-labels",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "hour-labels--1.7b-rl",
+      "task_id": "hour-labels",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 2,
+        "later_edits": 1,
+        "repeated_edits": 0,
+        "real_recovery": true
+      }
+    },
+    {
+      "episode_id": "ordered-pairs--0.6b-rl",
+      "task_id": "ordered-pairs",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "ordered-pairs--1.7b-base",
+      "task_id": "ordered-pairs",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 3,
+        "later_edits": 2,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "ordered-pairs--1.7b-plain",
+      "task_id": "ordered-pairs",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "ordered-pairs--1.7b-notes",
+      "task_id": "ordered-pairs",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "ordered-pairs--1.7b-rl",
+      "task_id": "ordered-pairs",
+      "condition": "1.7b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "dice-score--0.6b-rl",
+      "task_id": "dice-score",
+      "condition": "0.6b-rl",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "dice-score--1.7b-base",
+      "task_id": "dice-score",
+      "condition": "1.7b-base",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "dice-score--1.7b-plain",
+      "task_id": "dice-score",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "dice-score--1.7b-notes",
+      "task_id": "dice-score",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "dice-score--1.7b-rl",
+      "task_id": "dice-score",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "yearly-interest--0.6b-rl",
+      "task_id": "yearly-interest",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "yearly-interest--1.7b-base",
+      "task_id": "yearly-interest",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "yearly-interest--1.7b-plain",
+      "task_id": "yearly-interest",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "yearly-interest--1.7b-notes",
+      "task_id": "yearly-interest",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 0,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "yearly-interest--1.7b-rl",
+      "task_id": "yearly-interest",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 3,
+        "later_edits": 2,
+        "repeated_edits": 1,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "stack-machine--0.6b-rl",
+      "task_id": "stack-machine",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "stack-machine--1.7b-base",
+      "task_id": "stack-machine",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "stack-machine--1.7b-plain",
+      "task_id": "stack-machine",
+      "condition": "1.7b-plain",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "stack-machine--1.7b-notes",
+      "task_id": "stack-machine",
+      "condition": "1.7b-notes",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 3,
+        "later_edits": 2,
+        "repeated_edits": 0,
+        "real_recovery": true
+      }
+    },
+    {
+      "episode_id": "stack-machine--1.7b-rl",
+      "task_id": "stack-machine",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "inventory-restock--0.6b-rl",
+      "task_id": "inventory-restock",
+      "condition": "0.6b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "inventory-restock--1.7b-base",
+      "task_id": "inventory-restock",
+      "condition": "1.7b-base",
+      "success": false,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 1,
+        "later_edits": 0,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "inventory-restock--1.7b-plain",
+      "task_id": "inventory-restock",
+      "condition": "1.7b-plain",
+      "success": true,
+      "termination": "submitted",
+      "debugging": {
+        "edits": 2,
+        "later_edits": 1,
+        "repeated_edits": 0,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "inventory-restock--1.7b-notes",
+      "task_id": "inventory-restock",
+      "condition": "1.7b-notes",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 3,
+        "real_recovery": false
+      }
+    },
+    {
+      "episode_id": "inventory-restock--1.7b-rl",
+      "task_id": "inventory-restock",
+      "condition": "1.7b-rl",
+      "success": false,
+      "termination": "action_budget",
+      "debugging": {
+        "edits": 4,
+        "later_edits": 3,
+        "repeated_edits": 2,
+        "real_recovery": false
+      }
+    }
+  ]
+}

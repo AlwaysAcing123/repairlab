@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.ruff_cache/
+.DS_Store
+# New local runs go under artifacts/; only the curated evidence below is tracked.
+artifacts/*
+!artifacts/README.md
+!artifacts/*.json
+!artifacts/native-repair-pilot-20261030-v1/
+!artifacts/native-final-test-v1/
+!artifacts/scaleup-final-test-2-v1/
+!artifacts/scaleup-humanevalfix-v1/

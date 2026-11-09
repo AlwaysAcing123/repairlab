@@ -1,0 +1,401 @@
+{
+  "kind": "native-autonomous-repair-pilot-v1",
+  "created_at": "2026-10-30T17:19:05.820333+00:00",
+  "interface_version": "repairlab-tools-v1",
+  "source_sha256": "ea1307c8d731b71b1c32d7edd43feab283bcb03d4b03feaaea34a1c7484a5798",
+  "host_python": "3.9.6",
+  "executor": {
+    "backend": "docker",
+    "image": "python:3.12-slim-bookworm@sha256:6a0e06f5ba0b373d051aabd3fffb9b873f27f9a2a3a14bcbe37dee6f0e3bbc70",
+    "image_id": "sha256:6a0e06f5ba0b373d051aabd3fffb9b873f27f9a2a3a14bcbe37dee6f0e3bbc70",
+    "resolved_reference": "python:3.12-slim-bookworm@sha256:6a0e06f5ba0b373d051aabd3fffb9b873f27f9a2a3a14bcbe37dee6f0e3bbc70",
+    "worker_sha256": "fcf3c383642dfc45b6c7d728d596925bb388565ab35c639aec381f108213dbaf",
+    "timeout_seconds": 12,
+    "cpu_seconds": 3,
+    "memory_mb": 128,
+    "pids": 32,
+    "network": "none",
+    "root_filesystem": "read_only"
+  },
+  "manifest": {
+    "dataset_version": "backend-helpers-development-v1",
+    "tasks": [
+      {
+        "task_id": "quantity-range",
+        "group_id": "quantity-range",
+        "split": "development",
+        "family": "validation",
+        "bug_category": "comparison",
+        "public_cases": 2,
+        "private_cases": 48,
+        "checked_domain": "All quantity in [-2,7], maximum in [1,5].",
+        "task_sha256": "f58297fb5cfcc5fb7b15874958a64c365a77aa7234a09f890e3d2256d95e5384"
+      },
+      {
+        "task_id": "closed-window",
+        "group_id": "closed-window",
+        "split": "development",
+        "family": "validation",
+        "bug_category": "comparison",
+        "public_cases": 2,
+        "private_cases": 196,
+        "checked_domain": "All timestamp,start,end in [-2,4] with start <= end.",
+        "task_sha256": "e9d603503b153ade8a27141383f720b5b32948567b2af88decfbd4c9d7c018bc"
+      },
+      {
+        "task_id": "payload-limit",
+        "group_id": "payload-limit",
+        "split": "development",
+        "family": "validation",
+        "bug_category": "comparison",
+        "public_cases": 2,
+        "private_cases": 47,
+        "checked_domain": "All size,limit in [0,6].",
+        "task_sha256": "8e3d0d4b7f00fb3ef341dddf2402cea90ea091382e7b11b4747a54d877e14ee2"
+      },
+      {
+        "task_id": "required-fields",
+        "group_id": "required-fields",
+        "split": "development",
+        "family": "validation",
+        "bug_category": "missing_condition",
+        "public_cases": 2,
+        "private_cases": 29,
+        "checked_domain": "All boolean lists of length 0 through 4.",
+        "task_sha256": "efba5af62d0a52b137c44edfed238532f3fc5241edb6f588ca75337936c037b7"
+      },
+      {
+        "task_id": "allowed-status",
+        "group_id": "allowed-status",
+        "split": "development",
+        "family": "validation",
+        "bug_category": "comparison",
+        "public_cases": 2,
+        "private_cases": 158,
+        "checked_domain": "All status in {200,201,400,500}, allowed lists over {200,201,400} of length 0..3.",
+        "task_sha256": "11228be9715960bd55726364ccce893450b61030650bbb88ff6c78de49e00010"
+      },
+      {
+        "task_id": "password-length",
+        "group_id": "password-length",
+        "split": "development",
+        "family": "validation",
+        "bug_category": "comparison",
+        "public_cases": 2,
+        "private_cases": 41,
+        "checked_domain": "All text in {'','a','bb','abc','four','éé','🙂'}, minimum in [0,5].",
+        "task_sha256": "7c4b7bfeb523c755e47d16e966ebb81049ba83b0b23c6047766e953f0caae20c"
+      },
+      {
+        "task_id": "positive-batch",
+        "group_id": "positive-batch",
+        "split": "development",
+        "family": "validation",
+        "bug_category": "missing_condition",
+        "public_cases": 3,
+        "private_cases": 153,
+        "checked_domain": "All lists over {-2,-1,0,1,2} of length 0..3.",
+        "task_sha256": "7f3a91d1a4974fc2a02f42d0f2e7e32a5f67bc7f13c15b681d49764dabe01e2f"
+      },
+      {
+        "task_id": "optional-name",
+        "group_id": "optional-name",
+        "split": "development",
+        "family": "validation",
+        "bug_category": "missing_condition",
+        "public_cases": 3,
+        "private_cases": 8,
+        "checked_domain": "All names in {None,'',' ','\\t','\\n','a',' a ','é','\\ta\\n'}.",
+        "task_sha256": "f2572450b409e4000b4dd9ab6fc895fdb9372f998abcbe7a015a7ea7c11f0688"
+      },
+      {
+        "task_id": "positive-total",
+        "group_id": "positive-total",
+        "split": "development",
+        "family": "collections",
+        "bug_category": "update_logic",
+        "public_cases": 2,
+        "private_cases": 154,
+        "checked_domain": "All integer lists over {-2,-1,0,1,2} of length 0..3.",
+        "task_sha256": "7fafb8b6d7a1f705f4b77dedd56ea7d77137d3d213262b107b0b6fa7250f63f3"
+      },
+      {
+        "task_id": "stable-unique",
+        "group_id": "stable-unique",
+        "split": "development",
+        "family": "collections",
+        "bug_category": "update_logic",
+        "public_cases": 2,
+        "private_cases": 154,
+        "checked_domain": "All integer lists over {-2,-1,0,1,2} of length 0..3.",
+        "task_sha256": "fd5f7a852724939d66618cfd9a9eb1222596e1a5eb73208fd16c62c0e6a13d8a"
+      },
+      {
+        "task_id": "chunk-items",
+        "group_id": "chunk-items",
+        "split": "development",
+        "family": "collections",
+        "bug_category": "off_by_one",
+        "public_cases": 2,
+        "private_cases": 123,
+        "checked_domain": "All binary integer lists of length 0..4, size in [1,4].",
+        "task_sha256": "7b920de7ab9b1dde919e1aa3b169df2890e6cc9a2d27b81fceecdf7fdaf8fac4"
+      },
+      {
+        "task_id": "page-slice",
+        "group_id": "page-slice",
+        "split": "development",
+        "family": "collections",
+        "bug_category": "off_by_one",
+        "public_cases": 2,
+        "private_cases": 374,
+        "checked_domain": "All binary integer lists of length 0..3, offset,limit in [0,4].",
+        "task_sha256": "98097f3594b197585d150c1af0cb3df0552b565366df29bf8d7ea65d66f705f5"
+      },
+      {
+        "task_id": "first-match",
+        "group_id": "first-match",
+        "split": "development",
+        "family": "collections",
+        "bug_category": "update_logic",
+        "public_cases": 2,
+        "private_cases": 158,
+        "checked_domain": "All lists over {0,1,2} of length 0..3, target in [0,3].",
+        "task_sha256": "2b2dd812151a674087f6561b81f1091fa1a6285af42d5c9a76495217ae97d005"
+      },
+      {
+        "task_id": "drop-missing",
+        "group_id": "drop-missing",
+        "split": "development",
+        "family": "collections",
+        "bug_category": "missing_condition",
+        "public_cases": 1,
+        "private_cases": 156,
+        "checked_domain": "All lists over {None,0,False,'',1} of length 0..3 (JSON types preserved).",
+        "task_sha256": "0bcc70669c20d11d8032902720608fe824c247bce2258ce79bc854dafcdc5790"
+      },
+      {
+        "task_id": "running-totals",
+        "group_id": "running-totals",
+        "split": "development",
+        "family": "collections",
+        "bug_category": "update_logic",
+        "public_cases": 2,
+        "private_cases": 154,
+        "checked_domain": "All lists over {-2,-1,0,1,2} of length 0..3.",
+        "task_sha256": "687aabf37ad8b1d71e21d4b11f0a9e43d5fc3e81bfc1a21e765419a2f4dfc0da"
+      },
+      {
+        "task_id": "bounded-queue",
+        "group_id": "bounded-queue",
+        "split": "development",
+        "family": "collections",
+        "bug_category": "off_by_one",
+        "public_cases": 2,
+        "private_cases": 225,
+        "checked_domain": "All binary integer lists length 0..3, item in [0,2], capacity in [0,4].",
+        "task_sha256": "51a9ad8c8755d9a72dc683f295068b708a9eab5de80bace4e983c0dcc8ddc5d3"
+      },
+      {
+        "task_id": "retry-decision",
+        "group_id": "retry-decision",
+        "split": "development",
+        "family": "control_flow",
+        "bug_category": "comparison",
+        "public_cases": 3,
+        "private_cases": 69,
+        "checked_domain": "All booleans transient, attempts,maximum in [0,5].",
+        "task_sha256": "8ff490bb9eadbf3fea78e82deaaf27a2af32e6b0016caeadc8d7ad74493ae15a"
+      },
+      {
+        "task_id": "capped-backoff",
+        "group_id": "capped-backoff",
+        "split": "development",
+        "family": "control_flow",
+        "bug_category": "update_logic",
+        "public_cases": 2,
+        "private_cases": 178,
+        "checked_domain": "All base in [0,3], attempt in [0,4], cap in [0,8].",
+        "task_sha256": "66f59e101432175e208e48a9b1c368b5edc0b15e1658dad90351543b4fd54022"
+      },
+      {
+        "task_id": "cache-expiry",
+        "group_id": "cache-expiry",
+        "split": "development",
+        "family": "control_flow",
+        "bug_category": "comparison",
+        "public_cases": 2,
+        "private_cases": 238,
+        "checked_domain": "All now in [-1,6], created in [-1,4], ttl in [0,4].",
+        "task_sha256": "91f16f16d330435d0e93fe8d08866f4d145fd377a12d0cc662c5628ca0af7698"
+      },
+      {
+        "task_id": "next-scheduled-slot",
+        "group_id": "next-scheduled-slot",
+        "split": "development",
+        "family": "control_flow",
+        "bug_category": "off_by_one",
+        "public_cases": 3,
+        "private_cases": 62,
+        "checked_domain": "All now in [0,12], interval in [1,5].",
+        "task_sha256": "ea0c79a0afe66914649020d666f5635542a38f02c33b7308fa935c97b193e072"
+      },
+      {
+        "task_id": "remaining-budget",
+        "group_id": "remaining-budget",
+        "split": "development",
+        "family": "control_flow",
+        "bug_category": "update_logic",
+        "public_cases": 2,
+        "private_cases": 62,
+        "checked_domain": "All total,used in [0,7].",
+        "task_sha256": "10ecab4a8300a9234cd8dbb26307abd3ac1784468475185e533fa105e81f82cb"
+      },
+      {
+        "task_id": "first-failure",
+        "group_id": "first-failure",
+        "split": "development",
+        "family": "control_flow",
+        "bug_category": "update_logic",
+        "public_cases": 2,
+        "private_cases": 29,
+        "checked_domain": "All boolean lists of length 0..4.",
+        "task_sha256": "0d0b213c77cc097cec24828ca6da94e382fa0d68ad10320381f84a878064bd5f"
+      },
+      {
+        "task_id": "consecutive-failures",
+        "group_id": "consecutive-failures",
+        "split": "development",
+        "family": "control_flow",
+        "bug_category": "update_logic",
+        "public_cases": 2,
+        "private_cases": 29,
+        "checked_domain": "All boolean lists of length 0..4.",
+        "task_sha256": "d30d12d900cb0b274ac571bf7794d5f17dfb44b9e6290a15a63ace5bec85aa49"
+      },
+      {
+        "task_id": "rate-window",
+        "group_id": "rate-window",
+        "split": "development",
+        "family": "control_flow",
+        "bug_category": "comparison",
+        "public_cases": 2,
+        "private_cases": 1020,
+        "checked_domain": "All lists over {-1,0,1,2} length 0..3, now in [0,2], window in [0,3].",
+        "task_sha256": "f40002791581d408c49f1bede0a5be957fda98291ebaf238783054141d69a10f"
+      }
+    ],
+    "training_tasks": 0,
+    "final_test_tasks": 0,
+    "manifest_sha256": "9829fbbd7e8db746505bcd6fb95205b181107cd207c63e79b52dbb014f30c407"
+  },
+  "split": "development",
+  "final_test_tasks": 0,
+  "protocol": "native-autonomous-repair-pilot-v1",
+  "model": "Qwen/Qwen3-0.6B",
+  "model_revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "budget": {
+    "max_actions": 8,
+    "max_episode_output_tokens": 4096,
+    "max_call_output_tokens": 512,
+    "max_context_tokens": 12288
+  },
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "read",
+        "description": "Read the current Python function source.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "test",
+        "description": "Execute the permitted public tests and return their results.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "edit",
+        "description": "Replace the current function with the complete Python source supplied.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "source": {
+              "type": "string",
+              "description": "Complete function source."
+            }
+          },
+          "required": [
+            "source"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "submit",
+        "description": "Submit the current function for independent final evaluation.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "system_message": "Use the supplied tools to carry out the user's request.\nCall exactly one tool per assistant turn. Use the native function-call format, not\nMarkdown or a plain-text JSON action. When editing Python, provide the complete\nfunction source in the source argument. Preserve its signature and use actual\nnewlines in source. Do not use annotations, decorators, or default arguments.\nOnly use information in the conversation. Do not claim a test or action happened\nuntil a tool result is provided. Repair the supplied function to satisfy its specification and public examples, then submit the corrected function.\n\nYou may read, test, edit, and retest as needed. Preserve the supplied solve signature.\nThe source must contain exactly one function. Inputs and outputs are JSON values;\npreserve output types and do not mutate inputs. Only public tests are available.\nFinal correctness checks are independent and are never revealed during the attempt.\nYou have at most 8 actions INCLUDING submit, 512 generated tokens per call, and 4096\ngenerated tokens in the entire episode. Only a submitted repair can succeed.\n",
+  "adapter": {
+    "kernel_source": "alwaysacing/repairlab-native-supervised-warmup",
+    "upstream_version": 1,
+    "file_sha256": "2dd4773919ca4c13934d796fd0e38ed77aeb8df12055e2cd8f3b69992ac47375",
+    "tensor_sha256": "245ac4651a2fb8018a8c699bc6219341ddf85a674d8584372bd5aa4905213c82",
+    "base_sha256": "2d4bad117c2ae98f4a69740ac05d48c237237d84711349a396c5e98866553204"
+  },
+  "task_ids": [
+    "quantity-range",
+    "closed-window",
+    "positive-total",
+    "stable-unique",
+    "retry-decision",
+    "capped-backoff"
+  ],
+  "conditions": [
+    "original",
+    "supervised"
+  ],
+  "transport": "staged-private-kaggle-batches",
+  "seed": 7,
+  "new_training": false,
+  "ordered_jobs": [
+    "quantity-range--original",
+    "quantity-range--supervised",
+    "closed-window--supervised",
+    "closed-window--original",
+    "positive-total--original",
+    "positive-total--supervised",
+    "stable-unique--supervised",
+    "stable-unique--original",
+    "retry-decision--original",
+    "retry-decision--supervised",
+    "capped-backoff--supervised",
+    "capped-backoff--original"
+  ]
+}

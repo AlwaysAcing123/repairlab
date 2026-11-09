@@ -1,0 +1,71 @@
+{
+  "frozen_at": "2026-11-07T01:35:33.066803+00:00",
+  "rules": "docs/scaleup-plan-20261105.md",
+  "arms": {
+    "0.6b-rl": {
+      "model_key": "0.6b",
+      "adapter": {
+        "kernel_source": "alwaysacing/repairlab-native-rl-cycle-6",
+        "upstream_version": 1,
+        "file_sha256": "179592c22a530e43bb8bc6d12e0baea34ed298b75ff07f5881ce1626fc576571",
+        "tensor_sha256": "45e360fad2d75f2e5a63c925729f8801716cfd88b3fd85e15eea2b3b95e4b379",
+        "base_sha256": "2d4bad117c2ae98f4a69740ac05d48c237237d84711349a396c5e98866553204"
+      }
+    },
+    "1.7b-base": {
+      "model_key": "1.7b",
+      "adapter": null
+    },
+    "1.7b-plain": {
+      "model_key": "1.7b",
+      "adapter": {
+        "kernel_source": "alwaysacing/repairlab-scaleup-sft-plain",
+        "upstream_version": 1,
+        "file_sha256": "b9e872b4e04ca244f55feb98a13511bd5f726b065caad44b2270c4c4223f16b9",
+        "tensor_sha256": "59d5e51b371564b0288e612f22e8d928b20265eb3d4d9555aa02970d2fafd75b",
+        "base_sha256": "9131bb923a64aa985b93f8c52b864fb973ffecb7a54f3624c7dfb83d96e63b04"
+      }
+    },
+    "1.7b-notes": {
+      "model_key": "1.7b",
+      "adapter": {
+        "kernel_source": "alwaysacing/repairlab-scaleup-sft-notes",
+        "upstream_version": 1,
+        "file_sha256": "71591fe69a5171f284e0af7814e7f5ba0da37504e450b1e6daa1f887b7966f4c",
+        "tensor_sha256": "0cd270d78c5c20a434e74e309c66bd8d974d1b109a585c545dd57cb80fd67198",
+        "base_sha256": "9131bb923a64aa985b93f8c52b864fb973ffecb7a54f3624c7dfb83d96e63b04"
+      }
+    },
+    "1.7b-rl": {
+      "model_key": "1.7b",
+      "adapter": {
+        "kernel_source": "alwaysacing/repairlab-scaleup-rl-cycle-6",
+        "upstream_version": 1,
+        "file_sha256": "900f6c54d62c29b727ca18e4c3cc6663e4dbd66b11537dfba4ae10a730d7df30",
+        "tensor_sha256": "5b482be359366e83acb9b4563b3e80c0f545431b82a5cf44d98860cd47028205",
+        "base_sha256": "9131bb923a64aa985b93f8c52b864fb973ffecb7a54f3624c7dfb83d96e63b04"
+      }
+    }
+  },
+  "chosen_variant": "plain",
+  "variant_development_successes": {
+    "1.7b-plain": 34,
+    "1.7b-notes": 29
+  },
+  "final_1.7b": "1.7b-rl",
+  "final_development_successes": {
+    "1.7b-plain": 34,
+    "1.7b-rl": 36
+  },
+  "comparator": "0.6b-rl",
+  "runs": {
+    "plain": "artifacts/scaleup-sft-plain-v1",
+    "notes": "artifacts/scaleup-sft-notes-v1",
+    "variant_choice": "artifacts/scaleup-dev-sft-v2",
+    "rl": "artifacts/scaleup-rl-v1",
+    "final_choice": "artifacts/scaleup-dev-rl-v2"
+  },
+  "full_development_lists": true,
+  "source_sha256": "ea1307c8d731b71b1c32d7edd43feab283bcb03d4b03feaaea34a1c7484a5798",
+  "scaleup_sha256": "c31c245a91eb7c881c783e73714e2ae76f367f46fdac8235a0bad3b36fc21785"
+}

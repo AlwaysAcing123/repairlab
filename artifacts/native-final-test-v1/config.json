@@ -1,0 +1,241 @@
+{
+  "protocol": "native-matched-comparison-v1",
+  "model": "Qwen/Qwen3-0.6B",
+  "model_revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "budget": {
+    "max_actions": 8,
+    "max_episode_output_tokens": 4096,
+    "max_call_output_tokens": 512,
+    "max_context_tokens": 12288
+  },
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "read",
+        "description": "Read the current Python function source.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "test",
+        "description": "Execute the permitted public tests and return their results.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "edit",
+        "description": "Replace the current function with the complete Python source supplied.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "source": {
+              "type": "string",
+              "description": "Complete function source."
+            }
+          },
+          "required": [
+            "source"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "submit",
+        "description": "Submit the current function for independent final evaluation.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "system_message": "Use the supplied tools to carry out the user's request.\nCall exactly one tool per assistant turn. Use the native function-call format, not\nMarkdown or a plain-text JSON action. When editing Python, provide the complete\nfunction source in the source argument. Preserve its signature and use actual\nnewlines in source. Do not use annotations, decorators, or default arguments.\nOnly use information in the conversation. Do not claim a test or action happened\nuntil a tool result is provided. Repair the supplied function to satisfy its specification and public examples, then submit the corrected function.\n\nYou may read, test, edit, and retest as needed. Preserve the supplied solve signature.\nThe source must contain exactly one function. Inputs and outputs are JSON values;\npreserve output types and do not mutate inputs. Only public tests are available.\nFinal correctness checks are independent and are never revealed during the attempt.\nYou have at most 8 actions INCLUDING submit, 512 generated tokens per call, and 4096\ngenerated tokens in the entire episode. Only a submitted repair can succeed.\n",
+  "arms": {
+    "original": null,
+    "supervised": {
+      "kernel_source": "alwaysacing/repairlab-native-supervised-warmup",
+      "upstream_version": 1,
+      "file_sha256": "2dd4773919ca4c13934d796fd0e38ed77aeb8df12055e2cd8f3b69992ac47375",
+      "tensor_sha256": "245ac4651a2fb8018a8c699bc6219341ddf85a674d8584372bd5aa4905213c82",
+      "base_sha256": "2d4bad117c2ae98f4a69740ac05d48c237237d84711349a396c5e98866553204"
+    },
+    "recovery": {
+      "kernel_source": "alwaysacing/repairlab-native-recovery-training",
+      "upstream_version": 1,
+      "file_sha256": "d7e7194d9623137a60d170dc3fdebe3957d2454f8352a08ea455addfab192853",
+      "tensor_sha256": "84c8b61f2f195b12643934f31e7dd0c26d9da71ad89ffde5b041f33233c444d1",
+      "base_sha256": "2d4bad117c2ae98f4a69740ac05d48c237237d84711349a396c5e98866553204"
+    },
+    "rl": {
+      "kernel_source": "alwaysacing/repairlab-native-rl-cycle-6",
+      "upstream_version": 1,
+      "file_sha256": "179592c22a530e43bb8bc6d12e0baea34ed298b75ff07f5881ce1626fc576571",
+      "tensor_sha256": "45e360fad2d75f2e5a63c925729f8801716cfd88b3fd85e15eea2b3b95e4b379",
+      "base_sha256": "2d4bad117c2ae98f4a69740ac05d48c237237d84711349a396c5e98866553204"
+    }
+  },
+  "base_sha256": "2d4bad117c2ae98f4a69740ac05d48c237237d84711349a396c5e98866553204",
+  "task_ids": [
+    "ipv4-octets",
+    "same-letter-counts",
+    "valid-day-of-month",
+    "letter-and-digit",
+    "email-shape",
+    "triangle-sides",
+    "uniform-values",
+    "power-of-two",
+    "transpose-rows",
+    "second-largest-distinct",
+    "count-inversions",
+    "split-on-zero",
+    "pad-to-length",
+    "swap-adjacent-pairs",
+    "common-in-left-order",
+    "lower-median",
+    "integer-sqrt",
+    "factorial-loop",
+    "fibonacci-number",
+    "prime-check",
+    "greedy-coin-count",
+    "thermostat-state",
+    "quiet-hours",
+    "clock-add"
+  ],
+  "seeded_failure": false,
+  "seeded_actions": 0,
+  "split": "final_test",
+  "new_training": false,
+  "executor": {
+    "backend": "docker",
+    "image": "python:3.12-slim-bookworm@sha256:6a0e06f5ba0b373d051aabd3fffb9b873f27f9a2a3a14bcbe37dee6f0e3bbc70",
+    "image_id": "sha256:6a0e06f5ba0b373d051aabd3fffb9b873f27f9a2a3a14bcbe37dee6f0e3bbc70",
+    "resolved_reference": "python:3.12-slim-bookworm@sha256:6a0e06f5ba0b373d051aabd3fffb9b873f27f9a2a3a14bcbe37dee6f0e3bbc70",
+    "worker_sha256": "fcf3c383642dfc45b6c7d728d596925bb388565ab35c639aec381f108213dbaf",
+    "timeout_seconds": 12,
+    "cpu_seconds": 3,
+    "memory_mb": 128,
+    "pids": 32,
+    "network": "none",
+    "root_filesystem": "read_only"
+  },
+  "source_sha256": "ea1307c8d731b71b1c32d7edd43feab283bcb03d4b03feaaea34a1c7484a5798",
+  "curriculum_sha256": "1661384fe399cbea1a8c8b4be70f8306279190d1105d80c6d1018e1af40410ae",
+  "ordered_jobs": [
+    "ipv4-octets--original",
+    "ipv4-octets--supervised",
+    "ipv4-octets--recovery",
+    "ipv4-octets--rl",
+    "same-letter-counts--supervised",
+    "same-letter-counts--recovery",
+    "same-letter-counts--rl",
+    "same-letter-counts--original",
+    "valid-day-of-month--recovery",
+    "valid-day-of-month--rl",
+    "valid-day-of-month--original",
+    "valid-day-of-month--supervised",
+    "letter-and-digit--rl",
+    "letter-and-digit--original",
+    "letter-and-digit--supervised",
+    "letter-and-digit--recovery",
+    "email-shape--original",
+    "email-shape--supervised",
+    "email-shape--recovery",
+    "email-shape--rl",
+    "triangle-sides--supervised",
+    "triangle-sides--recovery",
+    "triangle-sides--rl",
+    "triangle-sides--original",
+    "uniform-values--recovery",
+    "uniform-values--rl",
+    "uniform-values--original",
+    "uniform-values--supervised",
+    "power-of-two--rl",
+    "power-of-two--original",
+    "power-of-two--supervised",
+    "power-of-two--recovery",
+    "transpose-rows--original",
+    "transpose-rows--supervised",
+    "transpose-rows--recovery",
+    "transpose-rows--rl",
+    "second-largest-distinct--supervised",
+    "second-largest-distinct--recovery",
+    "second-largest-distinct--rl",
+    "second-largest-distinct--original",
+    "count-inversions--recovery",
+    "count-inversions--rl",
+    "count-inversions--original",
+    "count-inversions--supervised",
+    "split-on-zero--rl",
+    "split-on-zero--original",
+    "split-on-zero--supervised",
+    "split-on-zero--recovery",
+    "pad-to-length--original",
+    "pad-to-length--supervised",
+    "pad-to-length--recovery",
+    "pad-to-length--rl",
+    "swap-adjacent-pairs--supervised",
+    "swap-adjacent-pairs--recovery",
+    "swap-adjacent-pairs--rl",
+    "swap-adjacent-pairs--original",
+    "common-in-left-order--recovery",
+    "common-in-left-order--rl",
+    "common-in-left-order--original",
+    "common-in-left-order--supervised",
+    "lower-median--rl",
+    "lower-median--original",
+    "lower-median--supervised",
+    "lower-median--recovery",
+    "integer-sqrt--original",
+    "integer-sqrt--supervised",
+    "integer-sqrt--recovery",
+    "integer-sqrt--rl",
+    "factorial-loop--supervised",
+    "factorial-loop--recovery",
+    "factorial-loop--rl",
+    "factorial-loop--original",
+    "fibonacci-number--recovery",
+    "fibonacci-number--rl",
+    "fibonacci-number--original",
+    "fibonacci-number--supervised",
+    "prime-check--rl",
+    "prime-check--original",
+    "prime-check--supervised",
+    "prime-check--recovery",
+    "greedy-coin-count--original",
+    "greedy-coin-count--supervised",
+    "greedy-coin-count--recovery",
+    "greedy-coin-count--rl",
+    "thermostat-state--supervised",
+    "thermostat-state--recovery",
+    "thermostat-state--rl",
+    "thermostat-state--original",
+    "quiet-hours--recovery",
+    "quiet-hours--rl",
+    "quiet-hours--original",
+    "quiet-hours--supervised",
+    "clock-add--rl",
+    "clock-add--original",
+    "clock-add--supervised",
+    "clock-add--recovery"
+  ]
+}

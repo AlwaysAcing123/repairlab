@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "repairlab-pilot"
+version = "0.1.0"
+description = "A small, execution-graded Python repair development environment"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+repairlab = "repairlab.cli:main"
+
+[tool.setuptools]
+packages = ["repairlab", "repairlab.curriculum", "repairlab.rl", "repairlab.final2"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

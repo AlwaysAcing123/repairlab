@@ -1,0 +1,1871 @@
+{
+  "protocol": "native-matched-comparison-v1",
+  "split": "final_test",
+  "seeded_failure": false,
+  "tasks_per_condition": 24,
+  "rounds": 8,
+  "arms": {
+    "original": {
+      "tasks": 24,
+      "successes": 0,
+      "termination_counts": {
+        "action_budget": 15,
+        "submitted": 9
+      },
+      "invalid_actions": 123,
+      "output_tokens": 8454,
+      "episodes_with_failed_test": 0,
+      "next_tool_after_first_failure": {},
+      "revised_after_failure": 0,
+      "retested_after_revision": 0,
+      "submitted_on_failure": 0,
+      "recovered": 0
+    },
+    "supervised": {
+      "tasks": 24,
+      "successes": 5,
+      "termination_counts": {
+        "submitted": 24
+      },
+      "invalid_actions": 1,
+      "output_tokens": 2368,
+      "episodes_with_failed_test": 22,
+      "next_tool_after_first_failure": {
+        "submit": 15,
+        "edit": 7
+      },
+      "revised_after_failure": 5,
+      "retested_after_revision": 5,
+      "submitted_on_failure": 19,
+      "recovered": 3
+    },
+    "recovery": {
+      "tasks": 24,
+      "successes": 7,
+      "termination_counts": {
+        "submitted": 8,
+        "action_budget": 16
+      },
+      "invalid_actions": 5,
+      "output_tokens": 5277,
+      "episodes_with_failed_test": 21,
+      "next_tool_after_first_failure": {
+        "edit": 20,
+        "None": 1
+      },
+      "revised_after_failure": 9,
+      "retested_after_revision": 9,
+      "submitted_on_failure": 0,
+      "recovered": 5
+    },
+    "rl": {
+      "tasks": 24,
+      "successes": 9,
+      "termination_counts": {
+        "submitted": 10,
+        "action_budget": 14
+      },
+      "invalid_actions": 0,
+      "output_tokens": 5131,
+      "episodes_with_failed_test": 20,
+      "next_tool_after_first_failure": {
+        "edit": 20
+      },
+      "revised_after_failure": 11,
+      "retested_after_revision": 10,
+      "submitted_on_failure": 0,
+      "recovered": 6
+    }
+  },
+  "rows": [
+    {
+      "episode_id": "ipv4-octets--original",
+      "task_id": "ipv4-octets",
+      "family": "validation",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 7,
+      "output_tokens": 311,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "ipv4-octets--supervised",
+      "task_id": "ipv4-octets",
+      "family": "validation",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 89,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "submit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "ipv4-octets--recovery",
+      "task_id": "ipv4-octets",
+      "family": "validation",
+      "condition": "recovery",
+      "success": true,
+      "termination": "submitted",
+      "actions": 6,
+      "edits": 2,
+      "test_calls": 2,
+      "invalid_actions": 0,
+      "output_tokens": 157,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "ipv4-octets--rl",
+      "task_id": "ipv4-octets",
+      "family": "validation",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted",
+      "actions": 6,
+      "edits": 2,
+      "test_calls": 2,
+      "invalid_actions": 0,
+      "output_tokens": 157,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "same-letter-counts--supervised",
+      "task_id": "same-letter-counts",
+      "family": "validation",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 80,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "submit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "same-letter-counts--recovery",
+      "task_id": "same-letter-counts",
+      "family": "validation",
+      "condition": "recovery",
+      "success": true,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 86,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "same-letter-counts--rl",
+      "task_id": "same-letter-counts",
+      "family": "validation",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 86,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "same-letter-counts--original",
+      "task_id": "same-letter-counts",
+      "family": "validation",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 2,
+      "output_tokens": 139,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "valid-day-of-month--recovery",
+      "task_id": "valid-day-of-month",
+      "family": "validation",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 251,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "valid-day-of-month--rl",
+      "task_id": "valid-day-of-month",
+      "family": "validation",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 260,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "valid-day-of-month--original",
+      "task_id": "valid-day-of-month",
+      "family": "validation",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 2,
+      "output_tokens": 155,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "valid-day-of-month--supervised",
+      "task_id": "valid-day-of-month",
+      "family": "validation",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 81,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "submit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "letter-and-digit--rl",
+      "task_id": "letter-and-digit",
+      "family": "validation",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 336,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "letter-and-digit--original",
+      "task_id": "letter-and-digit",
+      "family": "validation",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 2,
+      "output_tokens": 171,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "letter-and-digit--supervised",
+      "task_id": "letter-and-digit",
+      "family": "validation",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 114,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "submit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "letter-and-digit--recovery",
+      "task_id": "letter-and-digit",
+      "family": "validation",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 336,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "email-shape--original",
+      "task_id": "email-shape",
+      "family": "validation",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 2,
+      "output_tokens": 145,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "email-shape--supervised",
+      "task_id": "email-shape",
+      "family": "validation",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 84,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "submit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "email-shape--recovery",
+      "task_id": "email-shape",
+      "family": "validation",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 224,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "email-shape--rl",
+      "task_id": "email-shape",
+      "family": "validation",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 229,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "triangle-sides--supervised",
+      "task_id": "triangle-sides",
+      "family": "validation",
+      "condition": "supervised",
+      "success": true,
+      "termination": "submitted",
+      "actions": 5,
+      "edits": 1,
+      "test_calls": 2,
+      "invalid_actions": 0,
+      "output_tokens": 107,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "triangle-sides--recovery",
+      "task_id": "triangle-sides",
+      "family": "validation",
+      "condition": "recovery",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 89,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "triangle-sides--rl",
+      "task_id": "triangle-sides",
+      "family": "validation",
+      "condition": "rl",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 89,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "triangle-sides--original",
+      "task_id": "triangle-sides",
+      "family": "validation",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 2,
+      "output_tokens": 148,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "uniform-values--recovery",
+      "task_id": "uniform-values",
+      "family": "validation",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 3,
+      "test_calls": 3,
+      "invalid_actions": 1,
+      "output_tokens": 199,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "uniform-values--rl",
+      "task_id": "uniform-values",
+      "family": "validation",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 197,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "uniform-values--original",
+      "task_id": "uniform-values",
+      "family": "validation",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 7,
+      "output_tokens": 226,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "uniform-values--supervised",
+      "task_id": "uniform-values",
+      "family": "validation",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 77,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "submit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "power-of-two--rl",
+      "task_id": "power-of-two",
+      "family": "validation",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted",
+      "actions": 6,
+      "edits": 2,
+      "test_calls": 2,
+      "invalid_actions": 0,
+      "output_tokens": 157,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "power-of-two--original",
+      "task_id": "power-of-two",
+      "family": "validation",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 2,
+      "output_tokens": 126,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "power-of-two--supervised",
+      "task_id": "power-of-two",
+      "family": "validation",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 83,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "submit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "power-of-two--recovery",
+      "task_id": "power-of-two",
+      "family": "validation",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 2,
+      "test_calls": 3,
+      "invalid_actions": 1,
+      "output_tokens": 226,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": null,
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "transpose-rows--original",
+      "task_id": "transpose-rows",
+      "family": "collections",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 7,
+      "output_tokens": 661,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "transpose-rows--supervised",
+      "task_id": "transpose-rows",
+      "family": "collections",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 88,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "submit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "transpose-rows--recovery",
+      "task_id": "transpose-rows",
+      "family": "collections",
+      "condition": "recovery",
+      "success": true,
+      "termination": "submitted",
+      "actions": 6,
+      "edits": 2,
+      "test_calls": 2,
+      "invalid_actions": 0,
+      "output_tokens": 130,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "transpose-rows--rl",
+      "task_id": "transpose-rows",
+      "family": "collections",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted",
+      "actions": 6,
+      "edits": 2,
+      "test_calls": 2,
+      "invalid_actions": 0,
+      "output_tokens": 130,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "second-largest-distinct--supervised",
+      "task_id": "second-largest-distinct",
+      "family": "collections",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 5,
+      "edits": 1,
+      "test_calls": 2,
+      "invalid_actions": 0,
+      "output_tokens": 120,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "second-largest-distinct--recovery",
+      "task_id": "second-largest-distinct",
+      "family": "collections",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 260,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "second-largest-distinct--rl",
+      "task_id": "second-largest-distinct",
+      "family": "collections",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted",
+      "actions": 8,
+      "edits": 3,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 225,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "second-largest-distinct--original",
+      "task_id": "second-largest-distinct",
+      "family": "collections",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 7,
+      "output_tokens": 514,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "count-inversions--recovery",
+      "task_id": "count-inversions",
+      "family": "collections",
+      "condition": "recovery",
+      "success": true,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 120,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "count-inversions--rl",
+      "task_id": "count-inversions",
+      "family": "collections",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 120,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "count-inversions--original",
+      "task_id": "count-inversions",
+      "family": "collections",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 7,
+      "output_tokens": 586,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "count-inversions--supervised",
+      "task_id": "count-inversions",
+      "family": "collections",
+      "condition": "supervised",
+      "success": true,
+      "termination": "submitted",
+      "actions": 5,
+      "edits": 1,
+      "test_calls": 2,
+      "invalid_actions": 0,
+      "output_tokens": 138,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "split-on-zero--rl",
+      "task_id": "split-on-zero",
+      "family": "collections",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 364,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "split-on-zero--original",
+      "task_id": "split-on-zero",
+      "family": "collections",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 7,
+      "output_tokens": 619,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "split-on-zero--supervised",
+      "task_id": "split-on-zero",
+      "family": "collections",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 121,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "submit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "split-on-zero--recovery",
+      "task_id": "split-on-zero",
+      "family": "collections",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 364,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "pad-to-length--original",
+      "task_id": "pad-to-length",
+      "family": "collections",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 7,
+      "output_tokens": 247,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "pad-to-length--supervised",
+      "task_id": "pad-to-length",
+      "family": "collections",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 85,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "submit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "pad-to-length--recovery",
+      "task_id": "pad-to-length",
+      "family": "collections",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 214,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "pad-to-length--rl",
+      "task_id": "pad-to-length",
+      "family": "collections",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 214,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "swap-adjacent-pairs--supervised",
+      "task_id": "swap-adjacent-pairs",
+      "family": "collections",
+      "condition": "supervised",
+      "success": true,
+      "termination": "submitted",
+      "actions": 5,
+      "edits": 1,
+      "test_calls": 2,
+      "invalid_actions": 0,
+      "output_tokens": 134,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "swap-adjacent-pairs--recovery",
+      "task_id": "swap-adjacent-pairs",
+      "family": "collections",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 356,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "swap-adjacent-pairs--rl",
+      "task_id": "swap-adjacent-pairs",
+      "family": "collections",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 356,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "swap-adjacent-pairs--original",
+      "task_id": "swap-adjacent-pairs",
+      "family": "collections",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 7,
+      "output_tokens": 584,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "common-in-left-order--recovery",
+      "task_id": "common-in-left-order",
+      "family": "collections",
+      "condition": "recovery",
+      "success": true,
+      "termination": "submitted",
+      "actions": 8,
+      "edits": 3,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 188,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "common-in-left-order--rl",
+      "task_id": "common-in-left-order",
+      "family": "collections",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted",
+      "actions": 8,
+      "edits": 3,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 188,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "common-in-left-order--original",
+      "task_id": "common-in-left-order",
+      "family": "collections",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 7,
+      "output_tokens": 523,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "common-in-left-order--supervised",
+      "task_id": "common-in-left-order",
+      "family": "collections",
+      "condition": "supervised",
+      "success": true,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 84,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "lower-median--rl",
+      "task_id": "lower-median",
+      "family": "collections",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 228,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "lower-median--original",
+      "task_id": "lower-median",
+      "family": "collections",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 2,
+      "output_tokens": 142,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "lower-median--supervised",
+      "task_id": "lower-median",
+      "family": "collections",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 87,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "lower-median--recovery",
+      "task_id": "lower-median",
+      "family": "collections",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 228,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "integer-sqrt--original",
+      "task_id": "integer-sqrt",
+      "family": "control_flow",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 7,
+      "output_tokens": 481,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "integer-sqrt--supervised",
+      "task_id": "integer-sqrt",
+      "family": "control_flow",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 93,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "submit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "integer-sqrt--recovery",
+      "task_id": "integer-sqrt",
+      "family": "control_flow",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 192,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "integer-sqrt--rl",
+      "task_id": "integer-sqrt",
+      "family": "control_flow",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 192,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "factorial-loop--supervised",
+      "task_id": "factorial-loop",
+      "family": "control_flow",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 94,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "submit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "factorial-loop--recovery",
+      "task_id": "factorial-loop",
+      "family": "control_flow",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 192,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "factorial-loop--rl",
+      "task_id": "factorial-loop",
+      "family": "control_flow",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 192,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "factorial-loop--original",
+      "task_id": "factorial-loop",
+      "family": "control_flow",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 7,
+      "output_tokens": 284,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "fibonacci-number--recovery",
+      "task_id": "fibonacci-number",
+      "family": "control_flow",
+      "condition": "recovery",
+      "success": true,
+      "termination": "submitted",
+      "actions": 8,
+      "edits": 3,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 218,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "fibonacci-number--rl",
+      "task_id": "fibonacci-number",
+      "family": "control_flow",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted",
+      "actions": 8,
+      "edits": 3,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 218,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "fibonacci-number--original",
+      "task_id": "fibonacci-number",
+      "family": "control_flow",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 7,
+      "output_tokens": 414,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "fibonacci-number--supervised",
+      "task_id": "fibonacci-number",
+      "family": "control_flow",
+      "condition": "supervised",
+      "success": true,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 102,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "prime-check--rl",
+      "task_id": "prime-check",
+      "family": "control_flow",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 308,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "prime-check--original",
+      "task_id": "prime-check",
+      "family": "control_flow",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 2,
+      "output_tokens": 136,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "prime-check--supervised",
+      "task_id": "prime-check",
+      "family": "control_flow",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 97,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "prime-check--recovery",
+      "task_id": "prime-check",
+      "family": "control_flow",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 304,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "greedy-coin-count--original",
+      "task_id": "greedy-coin-count",
+      "family": "control_flow",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 7,
+      "output_tokens": 304,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "greedy-coin-count--supervised",
+      "task_id": "greedy-coin-count",
+      "family": "control_flow",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 115,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "submit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "greedy-coin-count--recovery",
+      "task_id": "greedy-coin-count",
+      "family": "control_flow",
+      "condition": "recovery",
+      "success": true,
+      "termination": "submitted",
+      "actions": 6,
+      "edits": 2,
+      "test_calls": 2,
+      "invalid_actions": 0,
+      "output_tokens": 202,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "greedy-coin-count--rl",
+      "task_id": "greedy-coin-count",
+      "family": "control_flow",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 109,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "thermostat-state--supervised",
+      "task_id": "thermostat-state",
+      "family": "control_flow",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 0,
+      "output_tokens": 103,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "submit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "thermostat-state--recovery",
+      "task_id": "thermostat-state",
+      "family": "control_flow",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 2,
+      "invalid_actions": 3,
+      "output_tokens": 257,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "thermostat-state--rl",
+      "task_id": "thermostat-state",
+      "family": "control_flow",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 292,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "thermostat-state--original",
+      "task_id": "thermostat-state",
+      "family": "control_flow",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 7,
+      "output_tokens": 738,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "quiet-hours--recovery",
+      "task_id": "quiet-hours",
+      "family": "control_flow",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 200,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "quiet-hours--rl",
+      "task_id": "quiet-hours",
+      "family": "control_flow",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 200,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "quiet-hours--original",
+      "task_id": "quiet-hours",
+      "family": "control_flow",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 2,
+      "output_tokens": 179,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "quiet-hours--supervised",
+      "task_id": "quiet-hours",
+      "family": "control_flow",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 5,
+      "edits": 1,
+      "test_calls": 2,
+      "invalid_actions": 0,
+      "output_tokens": 95,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": true,
+        "retested": true,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "clock-add--rl",
+      "task_id": "clock-add",
+      "family": "control_flow",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 284,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    },
+    {
+      "episode_id": "clock-add--original",
+      "task_id": "clock-add",
+      "family": "control_flow",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 1,
+      "test_calls": 0,
+      "invalid_actions": 7,
+      "output_tokens": 621,
+      "recovery": {
+        "saw_failure": false
+      }
+    },
+    {
+      "episode_id": "clock-add--supervised",
+      "task_id": "clock-add",
+      "family": "control_flow",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted",
+      "actions": 4,
+      "edits": 1,
+      "test_calls": 1,
+      "invalid_actions": 1,
+      "output_tokens": 97,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "submit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": true
+      }
+    },
+    {
+      "episode_id": "clock-add--recovery",
+      "task_id": "clock-add",
+      "family": "control_flow",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget",
+      "actions": 8,
+      "edits": 4,
+      "test_calls": 3,
+      "invalid_actions": 0,
+      "output_tokens": 284,
+      "recovery": {
+        "saw_failure": true,
+        "next_tool": "edit",
+        "revised": false,
+        "retested": false,
+        "submitted_on_failure": false
+      }
+    }
+  ],
+  "new_training": false
+}

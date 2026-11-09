@@ -1,0 +1,1630 @@
+{
+  "verified": true,
+  "seeded_failure": false,
+  "episodes": 96,
+  "tasks": 24,
+  "generated_calls": 601,
+  "valid_native_calls": 473,
+  "invalid_native_calls": 128,
+  "identical_environment_across_rounds": true,
+  "checkpoints_reloaded_and_unchanged": true,
+  "public_only_conversations_verified": true,
+  "split": "final_test",
+  "sealed_final_tasks_used": 24,
+  "fresh_submitted_regrades": [
+    {
+      "episode_id": "ipv4-octets--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.364,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5946,
+        "passed_cases": 326,
+        "total_cases": 341
+      }
+    },
+    {
+      "episode_id": "ipv4-octets--recovery",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4368,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4581,
+        "passed_cases": 341,
+        "total_cases": 341
+      }
+    },
+    {
+      "episode_id": "ipv4-octets--rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.581,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4892,
+        "passed_cases": 341,
+        "total_cases": 341
+      }
+    },
+    {
+      "episode_id": "same-letter-counts--original",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4292,
+        "passed_cases": 1,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5176,
+        "passed_cases": 81,
+        "total_cases": 97
+      }
+    },
+    {
+      "episode_id": "same-letter-counts--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4419,
+        "passed_cases": 1,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5646,
+        "passed_cases": 81,
+        "total_cases": 97
+      }
+    },
+    {
+      "episode_id": "same-letter-counts--recovery",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4096,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4322,
+        "passed_cases": 97,
+        "total_cases": 97
+      }
+    },
+    {
+      "episode_id": "same-letter-counts--rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4207,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4405,
+        "passed_cases": 97,
+        "total_cases": 97
+      }
+    },
+    {
+      "episode_id": "valid-day-of-month--original",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.3863,
+        "passed_cases": 2,
+        "total_cases": 4
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.445,
+        "passed_cases": 99,
+        "total_cases": 104
+      }
+    },
+    {
+      "episode_id": "valid-day-of-month--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4334,
+        "passed_cases": 2,
+        "total_cases": 4
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4355,
+        "passed_cases": 99,
+        "total_cases": 104
+      }
+    },
+    {
+      "episode_id": "letter-and-digit--original",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4274,
+        "passed_cases": 1,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.43,
+        "passed_cases": 6,
+        "total_cases": 10
+      }
+    },
+    {
+      "episode_id": "letter-and-digit--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4415,
+        "passed_cases": 1,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4493,
+        "passed_cases": 6,
+        "total_cases": 10
+      }
+    },
+    {
+      "episode_id": "email-shape--original",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.432,
+        "passed_cases": 2,
+        "total_cases": 4
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.7524,
+        "passed_cases": 4,
+        "total_cases": 9
+      }
+    },
+    {
+      "episode_id": "email-shape--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4106,
+        "passed_cases": 2,
+        "total_cases": 4
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.481,
+        "passed_cases": 4,
+        "total_cases": 9
+      }
+    },
+    {
+      "episode_id": "triangle-sides--original",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.3911,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4253,
+        "passed_cases": 170,
+        "total_cases": 214
+      }
+    },
+    {
+      "episode_id": "triangle-sides--supervised",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4144,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4635,
+        "passed_cases": 214,
+        "total_cases": 214
+      }
+    },
+    {
+      "episode_id": "triangle-sides--recovery",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4209,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4785,
+        "passed_cases": 105,
+        "total_cases": 214
+      }
+    },
+    {
+      "episode_id": "triangle-sides--rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4942,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4091,
+        "passed_cases": 105,
+        "total_cases": 214
+      }
+    },
+    {
+      "episode_id": "uniform-values--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5753,
+        "passed_cases": 1,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5078,
+        "passed_cases": 32,
+        "total_cases": 37
+      }
+    },
+    {
+      "episode_id": "power-of-two--original",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4027,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.463,
+        "passed_cases": 75,
+        "total_cases": 75
+      }
+    },
+    {
+      "episode_id": "power-of-two--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4446,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.3952,
+        "passed_cases": 75,
+        "total_cases": 75
+      }
+    },
+    {
+      "episode_id": "power-of-two--rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4092,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4124,
+        "passed_cases": 75,
+        "total_cases": 75
+      }
+    },
+    {
+      "episode_id": "transpose-rows--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.445,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4256,
+        "passed_cases": 530,
+        "total_cases": 682
+      }
+    },
+    {
+      "episode_id": "transpose-rows--recovery",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.3938,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4593,
+        "passed_cases": 682,
+        "total_cases": 682
+      }
+    },
+    {
+      "episode_id": "transpose-rows--rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4669,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4851,
+        "passed_cases": 682,
+        "total_cases": 682
+      }
+    },
+    {
+      "episode_id": "second-largest-distinct--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4158,
+        "passed_cases": 2,
+        "total_cases": 4
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4245,
+        "passed_cases": 16,
+        "total_cases": 340
+      }
+    },
+    {
+      "episode_id": "second-largest-distinct--rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.502,
+        "passed_cases": 4,
+        "total_cases": 4
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5758,
+        "passed_cases": 340,
+        "total_cases": 340
+      }
+    },
+    {
+      "episode_id": "count-inversions--supervised",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4594,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5173,
+        "passed_cases": 338,
+        "total_cases": 338
+      }
+    },
+    {
+      "episode_id": "count-inversions--recovery",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4523,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4535,
+        "passed_cases": 338,
+        "total_cases": 338
+      }
+    },
+    {
+      "episode_id": "count-inversions--rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4034,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4447,
+        "passed_cases": 338,
+        "total_cases": 338
+      }
+    },
+    {
+      "episode_id": "split-on-zero--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4176,
+        "passed_cases": 0,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4379,
+        "passed_cases": 0,
+        "total_cases": 118
+      }
+    },
+    {
+      "episode_id": "pad-to-length--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4508,
+        "passed_cases": 1,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4055,
+        "passed_cases": 11,
+        "total_cases": 148
+      }
+    },
+    {
+      "episode_id": "swap-adjacent-pairs--supervised",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4437,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4651,
+        "passed_cases": 363,
+        "total_cases": 363
+      }
+    },
+    {
+      "episode_id": "common-in-left-order--supervised",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4281,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4601,
+        "passed_cases": 1598,
+        "total_cases": 1598
+      }
+    },
+    {
+      "episode_id": "common-in-left-order--recovery",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4157,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5026,
+        "passed_cases": 1598,
+        "total_cases": 1598
+      }
+    },
+    {
+      "episode_id": "common-in-left-order--rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.432,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.5173,
+        "passed_cases": 1598,
+        "total_cases": 1598
+      }
+    },
+    {
+      "episode_id": "lower-median--original",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5183,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4097,
+        "passed_cases": 171,
+        "total_cases": 339
+      }
+    },
+    {
+      "episode_id": "lower-median--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4135,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.438,
+        "passed_cases": 171,
+        "total_cases": 339
+      }
+    },
+    {
+      "episode_id": "integer-sqrt--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.3918,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4802,
+        "passed_cases": 7,
+        "total_cases": 62
+      }
+    },
+    {
+      "episode_id": "factorial-loop--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.443,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.435,
+        "passed_cases": 0,
+        "total_cases": 10
+      }
+    },
+    {
+      "episode_id": "fibonacci-number--supervised",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4384,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4662,
+        "passed_cases": 22,
+        "total_cases": 22
+      }
+    },
+    {
+      "episode_id": "fibonacci-number--recovery",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4175,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4023,
+        "passed_cases": 22,
+        "total_cases": 22
+      }
+    },
+    {
+      "episode_id": "fibonacci-number--rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.3956,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4338,
+        "passed_cases": 22,
+        "total_cases": 22
+      }
+    },
+    {
+      "episode_id": "prime-check--original",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4825,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4188,
+        "passed_cases": 76,
+        "total_cases": 80
+      }
+    },
+    {
+      "episode_id": "prime-check--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4412,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4085,
+        "passed_cases": 76,
+        "total_cases": 80
+      }
+    },
+    {
+      "episode_id": "greedy-coin-count--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4063,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4365,
+        "passed_cases": 25,
+        "total_cases": 117
+      }
+    },
+    {
+      "episode_id": "greedy-coin-count--recovery",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.3986,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.3993,
+        "passed_cases": 117,
+        "total_cases": 117
+      }
+    },
+    {
+      "episode_id": "greedy-coin-count--rl",
+      "public": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4173,
+        "passed_cases": 3,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": true,
+        "status": "graded",
+        "elapsed_seconds": 0.4233,
+        "passed_cases": 117,
+        "total_cases": 117
+      }
+    },
+    {
+      "episode_id": "thermostat-state--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4168,
+        "passed_cases": 3,
+        "total_cases": 4
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4586,
+        "passed_cases": 31,
+        "total_cases": 36
+      }
+    },
+    {
+      "episode_id": "quiet-hours--original",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5466,
+        "passed_cases": 2,
+        "total_cases": 4
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4213,
+        "passed_cases": 468,
+        "total_cases": 596
+      }
+    },
+    {
+      "episode_id": "quiet-hours--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.5578,
+        "passed_cases": 2,
+        "total_cases": 4
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.413,
+        "passed_cases": 453,
+        "total_cases": 596
+      }
+    },
+    {
+      "episode_id": "clock-add--supervised",
+      "public": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4697,
+        "passed_cases": 2,
+        "total_cases": 3
+      },
+      "private": {
+        "passed": false,
+        "status": "graded",
+        "elapsed_seconds": 0.4381,
+        "passed_cases": 52,
+        "total_cases": 83
+      }
+    }
+  ],
+  "arms": {
+    "original": {
+      "tasks": 24,
+      "successes": 0,
+      "termination_counts": {
+        "action_budget": 15,
+        "submitted": 9
+      },
+      "invalid_actions": 123,
+      "output_tokens": 8454,
+      "episodes_with_failed_test": 0,
+      "next_tool_after_first_failure": {},
+      "revised_after_failure": 0,
+      "retested_after_revision": 0,
+      "submitted_on_failure": 0,
+      "recovered": 0
+    },
+    "supervised": {
+      "tasks": 24,
+      "successes": 5,
+      "termination_counts": {
+        "submitted": 24
+      },
+      "invalid_actions": 1,
+      "output_tokens": 2368,
+      "episodes_with_failed_test": 22,
+      "next_tool_after_first_failure": {
+        "submit": 15,
+        "edit": 7
+      },
+      "revised_after_failure": 5,
+      "retested_after_revision": 5,
+      "submitted_on_failure": 19,
+      "recovered": 3
+    },
+    "recovery": {
+      "tasks": 24,
+      "successes": 7,
+      "termination_counts": {
+        "submitted": 8,
+        "action_budget": 16
+      },
+      "invalid_actions": 5,
+      "output_tokens": 5277,
+      "episodes_with_failed_test": 21,
+      "next_tool_after_first_failure": {
+        "edit": 20,
+        "None": 1
+      },
+      "revised_after_failure": 9,
+      "retested_after_revision": 9,
+      "submitted_on_failure": 0,
+      "recovered": 5
+    },
+    "rl": {
+      "tasks": 24,
+      "successes": 9,
+      "termination_counts": {
+        "submitted": 10,
+        "action_budget": 14
+      },
+      "invalid_actions": 0,
+      "output_tokens": 5131,
+      "episodes_with_failed_test": 20,
+      "next_tool_after_first_failure": {
+        "edit": 20
+      },
+      "revised_after_failure": 11,
+      "retested_after_revision": 10,
+      "submitted_on_failure": 0,
+      "recovered": 6
+    }
+  },
+  "rows": [
+    {
+      "episode_id": "ipv4-octets--original",
+      "task_id": "ipv4-octets",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "ipv4-octets--supervised",
+      "task_id": "ipv4-octets",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "ipv4-octets--recovery",
+      "task_id": "ipv4-octets",
+      "condition": "recovery",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "ipv4-octets--rl",
+      "task_id": "ipv4-octets",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "same-letter-counts--original",
+      "task_id": "same-letter-counts",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "same-letter-counts--supervised",
+      "task_id": "same-letter-counts",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "same-letter-counts--recovery",
+      "task_id": "same-letter-counts",
+      "condition": "recovery",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "same-letter-counts--rl",
+      "task_id": "same-letter-counts",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "valid-day-of-month--original",
+      "task_id": "valid-day-of-month",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "valid-day-of-month--supervised",
+      "task_id": "valid-day-of-month",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "valid-day-of-month--recovery",
+      "task_id": "valid-day-of-month",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "valid-day-of-month--rl",
+      "task_id": "valid-day-of-month",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "letter-and-digit--original",
+      "task_id": "letter-and-digit",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "letter-and-digit--supervised",
+      "task_id": "letter-and-digit",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "letter-and-digit--recovery",
+      "task_id": "letter-and-digit",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "letter-and-digit--rl",
+      "task_id": "letter-and-digit",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "email-shape--original",
+      "task_id": "email-shape",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "email-shape--supervised",
+      "task_id": "email-shape",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "email-shape--recovery",
+      "task_id": "email-shape",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "email-shape--rl",
+      "task_id": "email-shape",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "triangle-sides--original",
+      "task_id": "triangle-sides",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "triangle-sides--supervised",
+      "task_id": "triangle-sides",
+      "condition": "supervised",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "triangle-sides--recovery",
+      "task_id": "triangle-sides",
+      "condition": "recovery",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "triangle-sides--rl",
+      "task_id": "triangle-sides",
+      "condition": "rl",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "uniform-values--original",
+      "task_id": "uniform-values",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "uniform-values--supervised",
+      "task_id": "uniform-values",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "uniform-values--recovery",
+      "task_id": "uniform-values",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "uniform-values--rl",
+      "task_id": "uniform-values",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "power-of-two--original",
+      "task_id": "power-of-two",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "power-of-two--supervised",
+      "task_id": "power-of-two",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "power-of-two--recovery",
+      "task_id": "power-of-two",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "power-of-two--rl",
+      "task_id": "power-of-two",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "transpose-rows--original",
+      "task_id": "transpose-rows",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "transpose-rows--supervised",
+      "task_id": "transpose-rows",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "transpose-rows--recovery",
+      "task_id": "transpose-rows",
+      "condition": "recovery",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "transpose-rows--rl",
+      "task_id": "transpose-rows",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "second-largest-distinct--original",
+      "task_id": "second-largest-distinct",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "second-largest-distinct--supervised",
+      "task_id": "second-largest-distinct",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "second-largest-distinct--recovery",
+      "task_id": "second-largest-distinct",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "second-largest-distinct--rl",
+      "task_id": "second-largest-distinct",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "count-inversions--original",
+      "task_id": "count-inversions",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "count-inversions--supervised",
+      "task_id": "count-inversions",
+      "condition": "supervised",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "count-inversions--recovery",
+      "task_id": "count-inversions",
+      "condition": "recovery",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "count-inversions--rl",
+      "task_id": "count-inversions",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "split-on-zero--original",
+      "task_id": "split-on-zero",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "split-on-zero--supervised",
+      "task_id": "split-on-zero",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "split-on-zero--recovery",
+      "task_id": "split-on-zero",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "split-on-zero--rl",
+      "task_id": "split-on-zero",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "pad-to-length--original",
+      "task_id": "pad-to-length",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "pad-to-length--supervised",
+      "task_id": "pad-to-length",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "pad-to-length--recovery",
+      "task_id": "pad-to-length",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "pad-to-length--rl",
+      "task_id": "pad-to-length",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "swap-adjacent-pairs--original",
+      "task_id": "swap-adjacent-pairs",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "swap-adjacent-pairs--supervised",
+      "task_id": "swap-adjacent-pairs",
+      "condition": "supervised",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "swap-adjacent-pairs--recovery",
+      "task_id": "swap-adjacent-pairs",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "swap-adjacent-pairs--rl",
+      "task_id": "swap-adjacent-pairs",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "common-in-left-order--original",
+      "task_id": "common-in-left-order",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "common-in-left-order--supervised",
+      "task_id": "common-in-left-order",
+      "condition": "supervised",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "common-in-left-order--recovery",
+      "task_id": "common-in-left-order",
+      "condition": "recovery",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "common-in-left-order--rl",
+      "task_id": "common-in-left-order",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "lower-median--original",
+      "task_id": "lower-median",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "lower-median--supervised",
+      "task_id": "lower-median",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "lower-median--recovery",
+      "task_id": "lower-median",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "lower-median--rl",
+      "task_id": "lower-median",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "integer-sqrt--original",
+      "task_id": "integer-sqrt",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "integer-sqrt--supervised",
+      "task_id": "integer-sqrt",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "integer-sqrt--recovery",
+      "task_id": "integer-sqrt",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "integer-sqrt--rl",
+      "task_id": "integer-sqrt",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "factorial-loop--original",
+      "task_id": "factorial-loop",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "factorial-loop--supervised",
+      "task_id": "factorial-loop",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "factorial-loop--recovery",
+      "task_id": "factorial-loop",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "factorial-loop--rl",
+      "task_id": "factorial-loop",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "fibonacci-number--original",
+      "task_id": "fibonacci-number",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "fibonacci-number--supervised",
+      "task_id": "fibonacci-number",
+      "condition": "supervised",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "fibonacci-number--recovery",
+      "task_id": "fibonacci-number",
+      "condition": "recovery",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "fibonacci-number--rl",
+      "task_id": "fibonacci-number",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "prime-check--original",
+      "task_id": "prime-check",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "prime-check--supervised",
+      "task_id": "prime-check",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "prime-check--recovery",
+      "task_id": "prime-check",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "prime-check--rl",
+      "task_id": "prime-check",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "greedy-coin-count--original",
+      "task_id": "greedy-coin-count",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "greedy-coin-count--supervised",
+      "task_id": "greedy-coin-count",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "greedy-coin-count--recovery",
+      "task_id": "greedy-coin-count",
+      "condition": "recovery",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "greedy-coin-count--rl",
+      "task_id": "greedy-coin-count",
+      "condition": "rl",
+      "success": true,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "thermostat-state--original",
+      "task_id": "thermostat-state",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "thermostat-state--supervised",
+      "task_id": "thermostat-state",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "thermostat-state--recovery",
+      "task_id": "thermostat-state",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "thermostat-state--rl",
+      "task_id": "thermostat-state",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "quiet-hours--original",
+      "task_id": "quiet-hours",
+      "condition": "original",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "quiet-hours--supervised",
+      "task_id": "quiet-hours",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "quiet-hours--recovery",
+      "task_id": "quiet-hours",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "quiet-hours--rl",
+      "task_id": "quiet-hours",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "clock-add--original",
+      "task_id": "clock-add",
+      "condition": "original",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "clock-add--supervised",
+      "task_id": "clock-add",
+      "condition": "supervised",
+      "success": false,
+      "termination": "submitted"
+    },
+    {
+      "episode_id": "clock-add--recovery",
+      "task_id": "clock-add",
+      "condition": "recovery",
+      "success": false,
+      "termination": "action_budget"
+    },
+    {
+      "episode_id": "clock-add--rl",
+      "task_id": "clock-add",
+      "condition": "rl",
+      "success": false,
+      "termination": "action_budget"
+    }
+  ]
+}
