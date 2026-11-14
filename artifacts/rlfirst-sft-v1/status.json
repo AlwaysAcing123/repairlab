@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "kernel": "alwaysacing/repairlab-rlfirst-sft",
+  "version": 1,
+  "optimizer_steps": 48,
+  "overflow_retries": 0,
+  "adapter_glob": "**/repairlab-rlfirst-sft-*/state/adapter"
+}

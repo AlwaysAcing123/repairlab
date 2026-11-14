@@ -1,0 +1,3794 @@
+{
+  "kind": "rlfirst_final_test_3_results",
+  "rules": {},
+  "description": {
+    "base": {
+      "humanevalfix": {
+        "tasks": 114,
+        "solved": 76,
+        "false_pass": 2,
+        "valid_first": 67,
+        "retry_identical": 4,
+        "unchanged_bug": 1,
+        "retried": 60,
+        "by_kind": {
+          "hand_written": {
+            "tasks": 114,
+            "solved": 76
+          }
+        }
+      },
+      "all": {
+        "tasks": 114,
+        "solved": 76,
+        "false_pass": 2,
+        "valid_first": 67,
+        "retry_identical": 4,
+        "unchanged_bug": 1,
+        "retried": 60,
+        "by_kind": {
+          "hand_written": {
+            "tasks": 114,
+            "solved": 76
+          }
+        }
+      }
+    },
+    "hardened": {
+      "humanevalfix": {
+        "tasks": 114,
+        "solved": 84,
+        "false_pass": 2,
+        "valid_first": 68,
+        "retry_identical": 6,
+        "unchanged_bug": 0,
+        "retried": 62,
+        "by_kind": {
+          "hand_written": {
+            "tasks": 114,
+            "solved": 84
+          }
+        }
+      },
+      "all": {
+        "tasks": 114,
+        "solved": 84,
+        "false_pass": 2,
+        "valid_first": 68,
+        "retry_identical": 6,
+        "unchanged_bug": 0,
+        "retried": 62,
+        "by_kind": {
+          "hand_written": {
+            "tasks": 114,
+            "solved": 84
+          }
+        }
+      }
+    },
+    "weak": {
+      "humanevalfix": {
+        "tasks": 114,
+        "solved": 91,
+        "false_pass": 0,
+        "valid_first": 59,
+        "retry_identical": 3,
+        "unchanged_bug": 0,
+        "retried": 67,
+        "by_kind": {
+          "hand_written": {
+            "tasks": 114,
+            "solved": 91
+          }
+        }
+      },
+      "all": {
+        "tasks": 114,
+        "solved": 91,
+        "false_pass": 0,
+        "valid_first": 59,
+        "retry_identical": 3,
+        "unchanged_bug": 0,
+        "retried": 67,
+        "by_kind": {
+          "hand_written": {
+            "tasks": 114,
+            "solved": 91
+          }
+        }
+      }
+    },
+    "supervised": {
+      "humanevalfix": {
+        "tasks": 114,
+        "solved": 82,
+        "false_pass": 3,
+        "valid_first": 113,
+        "retry_identical": 27,
+        "unchanged_bug": 1,
+        "retried": 30,
+        "by_kind": {
+          "hand_written": {
+            "tasks": 114,
+            "solved": 82
+          }
+        }
+      },
+      "all": {
+        "tasks": 114,
+        "solved": 82,
+        "false_pass": 3,
+        "valid_first": 113,
+        "retry_identical": 27,
+        "unchanged_bug": 1,
+        "retried": 30,
+        "by_kind": {
+          "hand_written": {
+            "tasks": 114,
+            "solved": 82
+          }
+        }
+      }
+    }
+  },
+  "mismatches": [],
+  "distinct_submissions_graded": 367,
+  "outcomes": {
+    "base": {
+      "humanevalfix-0~f955cb9dae": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-1~272ddc751e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-3~2b553b1a35": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-5~1291e2bb47": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-6~d3e74bab87": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-7~ed40a0fcec": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-9~bb4ff2e29f": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-11~1e99e52c16": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-12~f59a57abaa": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-15~a0f20507d7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-17~06a40f0e0c": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-18~8056f14ad5": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-19~1886d0597d": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-21~dccbe89c91": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-22~dee545a82a": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-24~c1e6d1c7ad": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-26~26f96031b8": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-27~73ea425fe2": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-28~6a52b0ba61": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-29~bfcf87456f": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-30~ee6aa9e582": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-36~93136f3a08": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-39~155dabc8d6": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-40~ec15a8259c": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-42~8b150eebab": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-43~59eb482909": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-46~322c1a041c": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-47~1e70996472": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-48~4acc3dcfb7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-49~44c6b44714": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-51~cc6ac0d4cd": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-52~b17b48109e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-55~e5dec7f82d": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-56~d26ca71931": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": true
+      },
+      "humanevalfix-57~dbbf721fff": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-58~c6c53ac7b1": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-59~0cdd83748f": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-60~bb379e21b8": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-62~9fdabb26f1": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-63~9177f338cc": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-65~9d07a3a2ea": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-66~7d38f1c285": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-67~fc85a4d1cb": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-68~b147fe7b93": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-69~8aaec79fe2": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-71~805cd607f9": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-72~6522333e08": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-73~2e2b7869f9": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-74~dd4e38c771": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-77~66987c53f6": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-78~d9d15db8ed": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-79~c5cdca8018": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-80~da46dd1d98": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-81~8a5994336e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-82~6f16d59815": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-85~a4565a08f0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-86~460781905f": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-88~b2db690173": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-89~bd348582ad": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-91~9072a3ee80": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-92~19a491fbb0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-93~0261815828": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-94~b966b51cd7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-96~ab7cf128f7": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-97~3d253b127d": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-98~48f53449ec": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-99~2206b3d4e0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-100~3ca4ac8adb": {
+        "solved": false,
+        "false_pass": true,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-101~cb933cb532": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-102~9f2baf2de6": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-103~289dcd7391": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-105~1de0f3dc50": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-106~72a049f245": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-109~283376d928": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-110~cb0f074805": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-111~94a24185f6": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-113~a538df6955": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-114~c7f4cdc663": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-115~5e9296fffd": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-116~c888403ec8": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-117~1403f9624e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-118~0f53fd539d": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-121~f5478fafe4": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-122~c42c4ed6c9": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-124~ef1df3ef99": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-125~6b1419204b": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-127~4b153934ec": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-128~d8ee9a0471": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-130~80498ddd3a": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-131~4f9d79f910": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-132~aed51c192b": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-133~9f3338ef18": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-134~86a45f92bf": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-135~9fb83e9bf3": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-137~24f29aabe0": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-138~fee36b412a": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-139~3b7b860cd0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-140~5c90fe29a7": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-141~8f0e51b203": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-142~58b3ebfbad": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-143~3cfc4dfbfb": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-144~2ed19a15a6": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-145~ea461627f4": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-146~1e99b1008d": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-147~5683eaf2d0": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-150~ee9a1d7729": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-152~f32b41f2cc": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-153~39e239739e": {
+        "solved": false,
+        "false_pass": true,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-154~5986909ab7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-157~9ee175481b": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-158~2817aa8bf6": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-159~ce694fccc5": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-161~05003f501e": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-162~184e450c2e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      }
+    },
+    "hardened": {
+      "humanevalfix-0~f955cb9dae": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-1~272ddc751e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-3~2b553b1a35": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-5~1291e2bb47": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-6~d3e74bab87": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-7~ed40a0fcec": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-9~bb4ff2e29f": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-11~1e99e52c16": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-12~f59a57abaa": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-15~a0f20507d7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-17~06a40f0e0c": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-18~8056f14ad5": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-19~1886d0597d": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-21~dccbe89c91": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-22~dee545a82a": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-24~c1e6d1c7ad": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-26~26f96031b8": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-27~73ea425fe2": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-28~6a52b0ba61": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-29~bfcf87456f": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-30~ee6aa9e582": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-36~93136f3a08": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-39~155dabc8d6": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-40~ec15a8259c": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-42~8b150eebab": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-43~59eb482909": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-46~322c1a041c": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-47~1e70996472": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-48~4acc3dcfb7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-49~44c6b44714": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-51~cc6ac0d4cd": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-52~b17b48109e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-55~e5dec7f82d": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-56~d26ca71931": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-57~dbbf721fff": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-58~c6c53ac7b1": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-59~0cdd83748f": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-60~bb379e21b8": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-62~9fdabb26f1": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-63~9177f338cc": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-65~9d07a3a2ea": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-66~7d38f1c285": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-67~fc85a4d1cb": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-68~b147fe7b93": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-69~8aaec79fe2": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-71~805cd607f9": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-72~6522333e08": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-73~2e2b7869f9": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-74~dd4e38c771": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-77~66987c53f6": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-78~d9d15db8ed": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-79~c5cdca8018": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-80~da46dd1d98": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-81~8a5994336e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-82~6f16d59815": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-85~a4565a08f0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-86~460781905f": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-88~b2db690173": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-89~bd348582ad": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-91~9072a3ee80": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-92~19a491fbb0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-93~0261815828": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-94~b966b51cd7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-96~ab7cf128f7": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-97~3d253b127d": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-98~48f53449ec": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-99~2206b3d4e0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-100~3ca4ac8adb": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-101~cb933cb532": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-102~9f2baf2de6": {
+        "solved": false,
+        "false_pass": true,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-103~289dcd7391": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-105~1de0f3dc50": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-106~72a049f245": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-109~283376d928": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-110~cb0f074805": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-111~94a24185f6": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-113~a538df6955": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-114~c7f4cdc663": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-115~5e9296fffd": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-116~c888403ec8": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-117~1403f9624e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-118~0f53fd539d": {
+        "solved": false,
+        "false_pass": true,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-121~f5478fafe4": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-122~c42c4ed6c9": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-124~ef1df3ef99": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-125~6b1419204b": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-127~4b153934ec": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-128~d8ee9a0471": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-130~80498ddd3a": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-131~4f9d79f910": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-132~aed51c192b": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-133~9f3338ef18": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-134~86a45f92bf": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-135~9fb83e9bf3": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-137~24f29aabe0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-138~fee36b412a": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-139~3b7b860cd0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-140~5c90fe29a7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-141~8f0e51b203": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-142~58b3ebfbad": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-143~3cfc4dfbfb": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-144~2ed19a15a6": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-145~ea461627f4": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-146~1e99b1008d": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-147~5683eaf2d0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-150~ee9a1d7729": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-152~f32b41f2cc": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-153~39e239739e": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-154~5986909ab7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-157~9ee175481b": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-158~2817aa8bf6": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-159~ce694fccc5": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-161~05003f501e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-162~184e450c2e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      }
+    },
+    "weak": {
+      "humanevalfix-0~f955cb9dae": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-1~272ddc751e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-3~2b553b1a35": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-5~1291e2bb47": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-6~d3e74bab87": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-7~ed40a0fcec": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-9~bb4ff2e29f": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-11~1e99e52c16": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-12~f59a57abaa": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-15~a0f20507d7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-17~06a40f0e0c": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-18~8056f14ad5": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-19~1886d0597d": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-21~dccbe89c91": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-22~dee545a82a": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-24~c1e6d1c7ad": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-26~26f96031b8": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-27~73ea425fe2": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-28~6a52b0ba61": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-29~bfcf87456f": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-30~ee6aa9e582": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-36~93136f3a08": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-39~155dabc8d6": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-40~ec15a8259c": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-42~8b150eebab": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-43~59eb482909": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-46~322c1a041c": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-47~1e70996472": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-48~4acc3dcfb7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-49~44c6b44714": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-51~cc6ac0d4cd": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-52~b17b48109e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-55~e5dec7f82d": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-56~d26ca71931": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-57~dbbf721fff": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-58~c6c53ac7b1": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-59~0cdd83748f": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-60~bb379e21b8": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-62~9fdabb26f1": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-63~9177f338cc": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-65~9d07a3a2ea": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-66~7d38f1c285": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-67~fc85a4d1cb": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-68~b147fe7b93": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-69~8aaec79fe2": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-71~805cd607f9": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-72~6522333e08": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-73~2e2b7869f9": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-74~dd4e38c771": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-77~66987c53f6": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-78~d9d15db8ed": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-79~c5cdca8018": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-80~da46dd1d98": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-81~8a5994336e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-82~6f16d59815": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-85~a4565a08f0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-86~460781905f": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-88~b2db690173": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-89~bd348582ad": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-91~9072a3ee80": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-92~19a491fbb0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-93~0261815828": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-94~b966b51cd7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-96~ab7cf128f7": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-97~3d253b127d": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-98~48f53449ec": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-99~2206b3d4e0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-100~3ca4ac8adb": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-101~cb933cb532": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-102~9f2baf2de6": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-103~289dcd7391": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-105~1de0f3dc50": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-106~72a049f245": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-109~283376d928": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-110~cb0f074805": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-111~94a24185f6": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-113~a538df6955": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-114~c7f4cdc663": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-115~5e9296fffd": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-116~c888403ec8": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-117~1403f9624e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-118~0f53fd539d": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-121~f5478fafe4": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-122~c42c4ed6c9": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-124~ef1df3ef99": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-125~6b1419204b": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-127~4b153934ec": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-128~d8ee9a0471": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-130~80498ddd3a": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-131~4f9d79f910": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-132~aed51c192b": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-133~9f3338ef18": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-134~86a45f92bf": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-135~9fb83e9bf3": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-137~24f29aabe0": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-138~fee36b412a": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-139~3b7b860cd0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-140~5c90fe29a7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-141~8f0e51b203": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-142~58b3ebfbad": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-143~3cfc4dfbfb": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-144~2ed19a15a6": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-145~ea461627f4": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-146~1e99b1008d": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-147~5683eaf2d0": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-150~ee9a1d7729": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-152~f32b41f2cc": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-153~39e239739e": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-154~5986909ab7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-157~9ee175481b": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-158~2817aa8bf6": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-159~ce694fccc5": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-161~05003f501e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-162~184e450c2e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      }
+    },
+    "supervised": {
+      "humanevalfix-0~f955cb9dae": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-1~272ddc751e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-3~2b553b1a35": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-5~1291e2bb47": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-6~d3e74bab87": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-7~ed40a0fcec": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-9~bb4ff2e29f": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-11~1e99e52c16": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-12~f59a57abaa": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-15~a0f20507d7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-17~06a40f0e0c": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-18~8056f14ad5": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-19~1886d0597d": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-21~dccbe89c91": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-22~dee545a82a": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-24~c1e6d1c7ad": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-26~26f96031b8": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-27~73ea425fe2": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-28~6a52b0ba61": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-29~bfcf87456f": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-30~ee6aa9e582": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-36~93136f3a08": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-39~155dabc8d6": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-40~ec15a8259c": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-42~8b150eebab": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-43~59eb482909": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-46~322c1a041c": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-47~1e70996472": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-48~4acc3dcfb7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-49~44c6b44714": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-51~cc6ac0d4cd": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-52~b17b48109e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-55~e5dec7f82d": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-56~d26ca71931": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-57~dbbf721fff": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-58~c6c53ac7b1": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-59~0cdd83748f": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-60~bb379e21b8": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-62~9fdabb26f1": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-63~9177f338cc": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-65~9d07a3a2ea": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-66~7d38f1c285": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-67~fc85a4d1cb": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-68~b147fe7b93": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-69~8aaec79fe2": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-71~805cd607f9": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-72~6522333e08": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-73~2e2b7869f9": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-74~dd4e38c771": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-77~66987c53f6": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-78~d9d15db8ed": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-79~c5cdca8018": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-80~da46dd1d98": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-81~8a5994336e": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-82~6f16d59815": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-85~a4565a08f0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-86~460781905f": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-88~b2db690173": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-89~bd348582ad": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-91~9072a3ee80": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-92~19a491fbb0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-93~0261815828": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": true
+      },
+      "humanevalfix-94~b966b51cd7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-96~ab7cf128f7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-97~3d253b127d": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-98~48f53449ec": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-99~2206b3d4e0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-100~3ca4ac8adb": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-101~cb933cb532": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-102~9f2baf2de6": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-103~289dcd7391": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-105~1de0f3dc50": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-106~72a049f245": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-109~283376d928": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-110~cb0f074805": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-111~94a24185f6": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-113~a538df6955": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-114~c7f4cdc663": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-115~5e9296fffd": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-116~c888403ec8": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-117~1403f9624e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-118~0f53fd539d": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-121~f5478fafe4": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-122~c42c4ed6c9": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-124~ef1df3ef99": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-125~6b1419204b": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-127~4b153934ec": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-128~d8ee9a0471": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-130~80498ddd3a": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-131~4f9d79f910": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-132~aed51c192b": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-133~9f3338ef18": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-134~86a45f92bf": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-135~9fb83e9bf3": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-137~24f29aabe0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-138~fee36b412a": {
+        "solved": false,
+        "false_pass": true,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-139~3b7b860cd0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-140~5c90fe29a7": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-141~8f0e51b203": {
+        "solved": false,
+        "false_pass": true,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-142~58b3ebfbad": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-143~3cfc4dfbfb": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": false,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-144~2ed19a15a6": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-145~ea461627f4": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-146~1e99b1008d": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-147~5683eaf2d0": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-150~ee9a1d7729": {
+        "solved": false,
+        "false_pass": true,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-152~f32b41f2cc": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-153~39e239739e": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-154~5986909ab7": {
+        "solved": true,
+        "false_pass": false,
+        "turns": 1,
+        "valid_first": true,
+        "retry_identical": false,
+        "unchanged_bug": false
+      },
+      "humanevalfix-157~9ee175481b": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-158~2817aa8bf6": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-159~ce694fccc5": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-161~05003f501e": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      },
+      "humanevalfix-162~184e450c2e": {
+        "solved": false,
+        "false_pass": false,
+        "turns": 2,
+        "valid_first": true,
+        "retry_identical": true,
+        "unchanged_bug": false
+      }
+    }
+  }
+}

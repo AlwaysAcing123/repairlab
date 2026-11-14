@@ -1,0 +1,16 @@
+{
+  "kind": "rlfirst_development_evaluation",
+  "arm": "supervised",
+  "sets": [
+    "dev-seen",
+    "dev-unseen"
+  ],
+  "tasks": 201,
+  "adapter_kernel": "alwaysacing/repairlab-rlfirst-sft",
+  "adapter_glob": "**/repairlab-rlfirst-sft-*/state/adapter",
+  "adapter_sha256": "84f361eb5e10e00a8938b7d233f26565a09330a068319aef7b70510119b2265b",
+  "dtype": "fp16",
+  "pool_summary_sha256": "04267076926259478ea06a68c65b41730c6d32f3cbcb1185e79c85a1456b62ab",
+  "rlfirst_fingerprint": "9576869773adda2a8455bae00e065057baf459299c47c2f312ee093bf12d7996",
+  "rule": "docs/rl-first-plan-20261107.md, Splits and Arms (development only)"
+}

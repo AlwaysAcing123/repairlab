@@ -1,0 +1,27 @@
+{
+  "kind": "rlfirst_rl_training",
+  "arm": "hardened",
+  "steps": 53,
+  "settings": {
+    "groups": 32,
+    "samples": 8,
+    "max_draws": 96,
+    "draw_chunk": 24,
+    "lr": 2e-05,
+    "clip": 1.0,
+    "max_sequence_tokens": 4096,
+    "chunk_seconds": 12600,
+    "vllm_utilization": 0.55,
+    "steps_total": 53,
+    "micro_batch_tokens": 16384,
+    "first_step_estimate": 973,
+    "collapse_threshold": 0.5
+  },
+  "dtype": "fp16",
+  "seed": 20261116,
+  "tasks": 383,
+  "retired_before_rl": 525,
+  "pool_summary_sha256": "04267076926259478ea06a68c65b41730c6d32f3cbcb1185e79c85a1456b62ab",
+  "rlfirst_fingerprint": "9576869773adda2a8455bae00e065057baf459299c47c2f312ee093bf12d7996",
+  "rule": "docs/rl-first-plan-20261107.md, RL method and Addendum 1"
+}

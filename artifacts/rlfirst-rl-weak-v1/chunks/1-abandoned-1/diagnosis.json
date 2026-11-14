@@ -1,0 +1,26 @@
+{
+  "kind": "rlfirst_rl_chunk_failure_diagnosis",
+  "written": "2026-11-10T02:00Z, after the failure, by the assistant",
+  "kernel": "alwaysacing/repairlab-rlfirst-weak-a version 1",
+  "steps_completed_and_saved": 12,
+  "failed_in": "step 13, policy update (_update -> _token_logprobs -> F.cross_entropy), after sampling and grading finished",
+  "error": "torch.OutOfMemoryError: tried to allocate 150 MiB; 12.05 GiB allocated by PyTorch, 1013 MiB reserved but unallocated, 1.31 GiB held by the sleeping vLLM process, 14.56 GiB total",
+  "peak_gib_steps_1_to_12": [
+    11.59,
+    11.73,
+    11.23,
+    11.56,
+    11.67,
+    11.93,
+    11.6,
+    11.8,
+    11.89,
+    12.05,
+    11.73,
+    11.68
+  ],
+  "cause": "The update keeps every reply token's fp32 logits for backward, so a micro-batch's memory grows with its reply tokens, while the 16,384-token micro-batch limit counts prompt plus reply tokens. Replies grew over the steps; steps already peaked within about 1 GiB of the limit, and fragmentation supplied the rest.",
+  "state_saved": "none: the runtime saves the adapter and optimizer only at the end of a chunk, so the 12 steps of training are lost; their episode records stay here as evidence and are not used for any result",
+  "fix": "scripts/rlfirst_runtime.py _update: on running out of memory, restore gradients from a copy and halve the micro-batch (loss unchanged). Runtime sha256 ead7612a... -> 6c8cea37.... See docs/rl-first-plan-20261107.md, Addendum 7.",
+  "recovery": "rerun this arm with --resume, which renames this folder to 1-abandoned-1 and starts chunk 1 again from the base model with the same seed and settings"
+}

@@ -1,0 +1,17 @@
+{
+  "use_fp16": true,
+  "use_vllm": true,
+  "hf_best_sequences_per_hour": 2718,
+  "vllm_sequences_per_hour": 7409,
+  "sampler_sequences_per_hour": 7409,
+  "batch_size": 64,
+  "in_session_grading_ok": true,
+  "privilege_drop": 65534,
+  "network_isolated": false,
+  "payload_readable_by_candidate": [
+    "/kaggle/src/script.ipynb",
+    "/kaggle/working/__notebook__.ipynb"
+  ],
+  "rule": "docs/rl-first-plan-20261107.md, Addenda 3 and 4",
+  "basis": "Addendum 3: fp16 by a disclosed deviation chosen by Aaron after preflight part A; vLLM chosen by Addendum 3 item 1 (artifacts/rlfirst-vllm-check-v1/vllm-decision.json); see Addendum 4. The rule-based decision is unchanged in artifacts/rlfirst-preflight-v1/preflight-decision.json."
+}

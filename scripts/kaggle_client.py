@@ -16,6 +16,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_LIMIT_BYTES = 1000000  # Kaggle rejects notebooks of 1 MB or more.
+MEMBER_LIMIT_BYTES = 256_000_000  # largest single output file accepted (RL optimizer state)
+ARCHIVE_LIMIT_BYTES = 1_000_000_000  # largest total uncompressed output accepted
 # Read-only calls ride out about an hour without network, 30 seconds apart; a laptop
 # that changed networks once lost DNS for longer than five minutes mid-run.
 OUTAGE_ATTEMPTS = 120
@@ -81,6 +83,32 @@ def build_notebook(
     }
     Path(destination).write_text(json.dumps(notebook, indent=2, ensure_ascii=False) + "\n")
     return notebook
+
+
+def extract_output(folder):
+    """Extract a downloaded output archive after checking every member's path and size.
+
+    A member may be at most ``MEMBER_LIMIT_BYTES``: an RL chunk's saved state holds an
+    optimizer file of about 140 MB (the earlier 64 MB limit refused the first hardened
+    chunk's complete output; Addendum 7).
+    """
+    archives = list((folder / "download").glob("*.zip"))
+    if len(archives) != 1:
+        raise RuntimeError("Expected exactly one output archive")
+    extracted = folder / "extracted"
+    with zipfile.ZipFile(archives[0]) as archive:
+        members = archive.infolist()
+        for member in members:
+            if (
+                Path(member.filename).is_absolute()
+                or ".." in Path(member.filename).parts
+                or member.file_size > MEMBER_LIMIT_BYTES
+            ):
+                raise RuntimeError("Unsafe or unexpectedly large output archive")
+        if sum(m.file_size for m in members) > ARCHIVE_LIMIT_BYTES:
+            raise RuntimeError("Unsafe or unexpectedly large output archive")
+        archive.extractall(extracted)
+    return extracted, archives[0]
 
 
 class Kaggle:
@@ -196,17 +224,5 @@ class Kaggle:
                 raise RuntimeError("GPU worker failed; diagnose saved outputs before retrying")
             time.sleep(poll_seconds)
         self._download(reference, folder)
-        archives = list((folder / "download").glob("*.zip"))
-        if len(archives) != 1:
-            raise RuntimeError("Expected exactly one output archive")
-        extracted = folder / "extracted"
-        with zipfile.ZipFile(archives[0]) as archive:
-            for member in archive.infolist():
-                if (
-                    Path(member.filename).is_absolute()
-                    or ".." in Path(member.filename).parts
-                    or member.file_size > 64000000
-                ):
-                    raise RuntimeError("Unsafe or unexpectedly large output archive")
-            archive.extractall(extracted)
-        return extracted, archives[0], int(version.group(1))
+        extracted, archive = extract_output(folder)
+        return extracted, archive, int(version.group(1))

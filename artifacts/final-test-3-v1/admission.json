@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "generated": 95,
+    "hand_written": 96
+  },
+  "report": [
+    {
+      "program": "roster-order",
+      "no_generated_bug": 0
+    }
+  ],
+  "seed": 20261140
+}

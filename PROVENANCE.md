@@ -99,3 +99,18 @@ checked against real test output. HumanEvalFix was converted to the native forma
 a mechanical rule; its tasks remain external material under the original MIT license.
 Qwen3-1.7B is used under Apache-2.0 at a pinned revision. The second final test was then
 opened once and is no longer unseen.
+
+From November 7 to 14, at the owner's request ("we barely used RL"), Claude Code wrote
+the RL-first plan (`docs/rl-first-plan-20261107.md`). Its rules were fixed before any run,
+and every later change is a dated addendum. Claude Code then built and ran the phase:
+- **Code:** the mutation engine, task pool and two-turn episodes in `repairlab/rlfirst/`;
+  the in-session RL runtime with vLLM sampling; the supervised arm; the freeze, opening
+  and audit scripts.
+- **Tasks:** the 28 extra hand-written pool bugs were written by a subagent. Sealed test
+  3's 96 programs in `repairlab/final3/` were written by a separate agent that saw no
+  model output. Like every earlier set, they are AI-authored and not human-reviewed.
+- **The owner's decisions:** realistic bug kinds instead of only off-by-ones, RL from the
+  untrained model, a weak-grader arm to test reward hacking, and fp16 as a disclosed
+  deviation from a pre-set rule.
+- **Openings:** sealed test 3 was opened once on November 14 and HumanEvalFix was run once
+  afterwards. Both are now spent.

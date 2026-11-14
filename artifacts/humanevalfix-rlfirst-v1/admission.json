@@ -1,0 +1,17 @@
+{
+  "tasks": 114,
+  "report": [
+    {
+      "task": "humanevalfix-76",
+      "rejected": "no failing input within limits"
+    },
+    {
+      "task": "humanevalfix-123",
+      "rejected": "no failing input within limits"
+    },
+    {
+      "task": "humanevalfix-156",
+      "rejected": "no failing input within limits"
+    }
+  ]
+}

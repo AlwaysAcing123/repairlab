@@ -1,0 +1,32 @@
+{
+  "kind": "rlfirst_pool_extension_not_model_results",
+  "created_at": "2026-11-09T20:14:16.980635+00:00",
+  "base": "artifacts/rlfirst-pool-v2",
+  "base_pool_sha256": "76018b1198daf0c758d75bc8db59b65c0649a5a0764f120206e2c6b927aaff3f",
+  "rlfirst_fingerprint": "9576869773adda2a8455bae00e065057baf459299c47c2f312ee093bf12d7996",
+  "host_python": "3.9.6",
+  "sandbox": {
+    "backend": "local_process",
+    "python": "3.9.6",
+    "worker_sha256": "fcf3c383642dfc45b6c7d728d596925bb388565ab35c639aec381f108213dbaf",
+    "timeout_seconds": 12,
+    "cpu_seconds": 3,
+    "memory_bytes": null,
+    "dropped_to_user": null,
+    "network_isolated": false
+  },
+  "docker": {
+    "backend": "docker",
+    "image": "python:3.12-slim-bookworm@sha256:6a0e06f5ba0b373d051aabd3fffb9b873f27f9a2a3a14bcbe37dee6f0e3bbc70",
+    "image_id": "sha256:6a0e06f5ba0b373d051aabd3fffb9b873f27f9a2a3a14bcbe37dee6f0e3bbc70",
+    "resolved_reference": "python:3.12-slim-bookworm@sha256:6a0e06f5ba0b373d051aabd3fffb9b873f27f9a2a3a14bcbe37dee6f0e3bbc70",
+    "worker_sha256": "fcf3c383642dfc45b6c7d728d596925bb388565ab35c639aec381f108213dbaf",
+    "timeout_seconds": 12,
+    "cpu_seconds": 3,
+    "memory_mb": 128,
+    "pids": 32,
+    "network": "none",
+    "root_filesystem": "read_only"
+  },
+  "plan": "docs/rl-first-plan-20261107.md (Addendum 2, item 2)"
+}

@@ -1,0 +1,8 @@
+{
+  "server_private": true,
+  "server_sources_match": true,
+  "archive_sha256": "81fba9d693937f0b9f52b5210a721583fcad533cc88656bfa4f4f8e3325f30a2",
+  "worker_complete": true,
+  "credentials_uploaded": false,
+  "kernel_version": 1
+}

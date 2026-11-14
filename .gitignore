@@ -12,3 +12,15 @@ artifacts/*
 !artifacts/native-final-test-v1/
 !artifacts/scaleup-final-test-2-v1/
 !artifacts/scaleup-humanevalfix-v1/
+!artifacts/final-test-3-v1/
+!artifacts/humanevalfix-rlfirst-v1/
+!artifacts/rlfirst-rl-hardened-v1/
+!artifacts/rlfirst-rl-weak-v1/
+!artifacts/rlfirst-dev-base-v1/
+!artifacts/rlfirst-dev-hardened-v1/
+!artifacts/rlfirst-dev-supervised-v1/
+!artifacts/rlfirst-dev-weak-v1/
+!artifacts/rlfirst-sft-v1/
+!artifacts/rlfirst-settings-v2/
+!artifacts/rlfirst-pool-v3/
+!artifacts/rlfirst-sweep-v1/

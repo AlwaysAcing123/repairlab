@@ -497,6 +497,10 @@ class DryRunTests(unittest.TestCase):
             check=True,
         )
 
+    @unittest.skipUnless(
+        (ROOT / "artifacts/native-supervised-warmup-20261030-v1/extracted/adapter/adapter_model.safetensors").exists(),
+        "needs the trained warm-up adapter, which this repository does not include",
+    )
     def test_expansion_runs_and_passes_the_frozen_audit(self):
         run = self.root / "expansion"
         self.script(
@@ -523,6 +527,10 @@ class DryRunTests(unittest.TestCase):
             "unit-test-token", "".join(p.read_text(errors="ignore") for p in run.rglob("*.json"))
         )
 
+    @unittest.skipUnless(
+        (ROOT / "artifacts/native-supervised-warmup-20261030-v1/extracted/adapter/adapter_model.safetensors").exists(),
+        "needs the trained warm-up adapter, which this repository does not include",
+    )
     def test_recovery_training_then_seeded_comparison(self):
         training = self.root / "training"
         self.script(

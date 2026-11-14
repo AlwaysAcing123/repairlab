@@ -13,7 +13,7 @@ dependencies = []
 repairlab = "repairlab.cli:main"
 
 [tool.setuptools]
-packages = ["repairlab", "repairlab.curriculum", "repairlab.rl", "repairlab.final2"]
+packages = ["repairlab", "repairlab.curriculum", "repairlab.rl", "repairlab.final2", "repairlab.final3"]
 
 [tool.ruff]
 line-length = 100

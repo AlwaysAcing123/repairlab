@@ -1,0 +1,112 @@
+{
+  "seed": 20261109,
+  "per_program_cap": 30,
+  "kind_share_cap": 0.15,
+  "kinds": [
+    "boundary",
+    "missing_edge_case",
+    "wrong_variable",
+    "wrong_init",
+    "statement_order",
+    "missing_step",
+    "wrong_scope",
+    "wrong_operation",
+    "aliasing",
+    "inverted_logic",
+    "wrong_return",
+    "hand_written",
+    "two_bugs"
+  ],
+  "pool_tasks": 908,
+  "pool_by_kind": {
+    "aliasing": 1,
+    "boundary": 132,
+    "hand_written": 108,
+    "inverted_logic": 94,
+    "missing_edge_case": 36,
+    "missing_step": 35,
+    "statement_order": 17,
+    "two_bugs": 132,
+    "wrong_init": 20,
+    "wrong_operation": 114,
+    "wrong_return": 53,
+    "wrong_scope": 6,
+    "wrong_variable": 132
+  },
+  "pool_by_split": {
+    "pilot": 131,
+    "training": 266,
+    "final1": 211,
+    "rl": 272
+  },
+  "dev_seen_tasks": 105,
+  "dev_seen_by_kind": {
+    "aliasing": 1,
+    "boundary": 19,
+    "inverted_logic": 12,
+    "missing_edge_case": 7,
+    "missing_step": 1,
+    "statement_order": 2,
+    "wrong_operation": 12,
+    "wrong_return": 8,
+    "wrong_scope": 2,
+    "wrong_variable": 41
+  },
+  "dev_unseen_tasks": 96,
+  "dev_unseen_by_kind": {
+    "boundary": 5,
+    "hand_written": 48,
+    "inverted_logic": 3,
+    "missing_edge_case": 2,
+    "statement_order": 1,
+    "wrong_operation": 8,
+    "wrong_return": 1,
+    "wrong_scope": 1,
+    "wrong_variable": 27
+  },
+  "programs_without_mutation": [
+    "collapse-repeats",
+    "countdown",
+    "drop-missing",
+    "flatten-once",
+    "matrix-diagonal",
+    "positive-total",
+    "required-fields",
+    "shipping-tier",
+    "stable-unique",
+    "transpose-rows"
+  ],
+  "stats": {
+    "admitted_singles": 1481,
+    "admitted_two_bugs": 1828,
+    "pool": 880,
+    "dev_seen": 105,
+    "dev_unseen": 96
+  },
+  "after_docker_controls": {
+    "pool": 880,
+    "dev_seen": 105,
+    "dev_unseen": 96,
+    "dropped": 0
+  },
+  "pool_by_kind_admitted": {
+    "aliasing": 1,
+    "boundary": 132,
+    "hand_written": 136,
+    "inverted_logic": 94,
+    "missing_edge_case": 36,
+    "missing_step": 35,
+    "statement_order": 17,
+    "two_bugs": 132,
+    "wrong_init": 20,
+    "wrong_operation": 114,
+    "wrong_return": 53,
+    "wrong_scope": 6,
+    "wrong_variable": 132
+  },
+  "pool_sha256": "e950688d97b9f214b7e3fc7babe27c034d101a4bbc4937494a0161ccf5e11ec9",
+  "elapsed_seconds": 795,
+  "extended_from": "artifacts/rlfirst-pool-v2",
+  "added_hand_written": 28,
+  "rejected_hand_written": []
+}

@@ -1,0 +1,319 @@
+{
+  "arm": "weak",
+  "environment": {
+    "python": "3.13.16",
+    "root": true,
+    "id": "uid=0(root) gid=0(root) groups=0(root)",
+    "cpus": 4,
+    "gpu": "Tesla T4",
+    "capability": [
+      7,
+      5
+    ],
+    "total_gib": 14.56219482421875,
+    "bf16_supported": true,
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "5.2.0",
+      "peft": "0.18.1",
+      "trl": "1.8.0",
+      "tokenizers": "0.22.2",
+      "accelerate": "1.15.0"
+    },
+    "sandbox": {
+      "backend": "local_process",
+      "python": "3.13.16",
+      "worker_sha256": "fcf3c383642dfc45b6c7d728d596925bb388565ab35c639aec381f108213dbaf",
+      "timeout_seconds": 12,
+      "cpu_seconds": 3,
+      "memory_bytes": 1073741824,
+      "dropped_to_user": 65534,
+      "network_isolated": false
+    }
+  },
+  "steps": [
+    {
+      "step": 14,
+      "draws": 48,
+      "informative_groups": 32,
+      "dropped_groups": 16,
+      "retired_total": 130,
+      "episodes": 384,
+      "valid_reply_rate": 0.6715210355987055,
+      "mean_reward": 0.7239583333333334,
+      "hardened_rate": 0.6770833333333334,
+      "false_passes": 18,
+      "skipped_long_turns": 0,
+      "update": {
+        "loss": -0.015496535008423962,
+        "grad_norm": 0.030351517722010612,
+        "finite_gradients": true,
+        "micro_batches": 21,
+        "oom_splits": [],
+        "trained_tokens": 143273,
+        "scale": 65536.0
+      },
+      "seconds": 1020.2,
+      "peak_gib": 11.71194839477539
+    },
+    {
+      "step": 15,
+      "draws": 48,
+      "informative_groups": 32,
+      "dropped_groups": 16,
+      "retired_total": 136,
+      "episodes": 384,
+      "valid_reply_rate": 0.6929133858267716,
+      "mean_reward": 0.6458333333333334,
+      "hardened_rate": 0.6015625,
+      "false_passes": 17,
+      "skipped_long_turns": 0,
+      "update": {
+        "loss": -0.017856172140454873,
+        "grad_norm": 0.025873012840747833,
+        "finite_gradients": true,
+        "micro_batches": 21,
+        "oom_splits": [],
+        "trained_tokens": 149859,
+        "scale": 65536.0
+      },
+      "seconds": 1028.7,
+      "peak_gib": 11.830774307250977
+    },
+    {
+      "step": 16,
+      "draws": 48,
+      "informative_groups": 32,
+      "dropped_groups": 16,
+      "retired_total": 144,
+      "episodes": 384,
+      "valid_reply_rate": 0.6266666666666667,
+      "mean_reward": 0.6588541666666666,
+      "hardened_rate": 0.6171875,
+      "false_passes": 16,
+      "skipped_long_turns": 0,
+      "update": {
+        "loss": -0.01630101256432681,
+        "grad_norm": 0.03136385977268219,
+        "finite_gradients": true,
+        "micro_batches": 22,
+        "oom_splits": [
+          29,
+          26
+        ],
+        "trained_tokens": 147592,
+        "scale": 65536.0
+      },
+      "seconds": 1111.6,
+      "peak_gib": 11.95441722869873
+    },
+    {
+      "step": 17,
+      "draws": 48,
+      "informative_groups": 32,
+      "dropped_groups": 16,
+      "retired_total": 150,
+      "episodes": 384,
+      "valid_reply_rate": 0.6919504643962848,
+      "mean_reward": 0.609375,
+      "hardened_rate": 0.5833333333333334,
+      "false_passes": 10,
+      "skipped_long_turns": 0,
+      "update": {
+        "loss": -0.01871032961844321,
+        "grad_norm": 0.02693445049226284,
+        "finite_gradients": true,
+        "micro_batches": 22,
+        "oom_splits": [
+          25
+        ],
+        "trained_tokens": 151396,
+        "scale": 65536.0
+      },
+      "seconds": 1105.7,
+      "peak_gib": 11.867294788360596
+    },
+    {
+      "step": 18,
+      "draws": 48,
+      "informative_groups": 32,
+      "dropped_groups": 16,
+      "retired_total": 157,
+      "episodes": 384,
+      "valid_reply_rate": 0.6746411483253588,
+      "mean_reward": 0.7161458333333334,
+      "hardened_rate": 0.6015625,
+      "false_passes": 44,
+      "skipped_long_turns": 0,
+      "update": {
+        "loss": -0.019867379380229977,
+        "grad_norm": 0.032526373863220215,
+        "finite_gradients": true,
+        "micro_batches": 20,
+        "oom_splits": [
+          30
+        ],
+        "trained_tokens": 134317,
+        "scale": 65536.0
+      },
+      "seconds": 977.6,
+      "peak_gib": 11.701334476470947
+    },
+    {
+      "step": 19,
+      "draws": 48,
+      "informative_groups": 32,
+      "dropped_groups": 16,
+      "retired_total": 164,
+      "episodes": 384,
+      "valid_reply_rate": 0.6866359447004609,
+      "mean_reward": 0.6145833333333334,
+      "hardened_rate": 0.578125,
+      "false_passes": 14,
+      "skipped_long_turns": 0,
+      "update": {
+        "loss": -0.021016028866142733,
+        "grad_norm": 0.029569095000624657,
+        "finite_gradients": true,
+        "micro_batches": 22,
+        "oom_splits": [],
+        "trained_tokens": 150984,
+        "scale": 65536.0
+      },
+      "seconds": 1117.0,
+      "peak_gib": 11.304940223693848
+    },
+    {
+      "step": 20,
+      "draws": 48,
+      "informative_groups": 32,
+      "dropped_groups": 16,
+      "retired_total": 168,
+      "episodes": 384,
+      "valid_reply_rate": 0.6534954407294833,
+      "mean_reward": 0.5989583333333334,
+      "hardened_rate": 0.5286458333333334,
+      "false_passes": 27,
+      "skipped_long_turns": 0,
+      "update": {
+        "loss": -0.017834969884461316,
+        "grad_norm": 0.026615703478455544,
+        "finite_gradients": true,
+        "micro_batches": 23,
+        "oom_splits": [
+          30,
+          24
+        ],
+        "trained_tokens": 154376,
+        "scale": 65536.0
+      },
+      "seconds": 1123.7,
+      "peak_gib": 11.80835771560669
+    },
+    {
+      "step": 21,
+      "draws": 48,
+      "informative_groups": 32,
+      "dropped_groups": 16,
+      "retired_total": 175,
+      "episodes": 384,
+      "valid_reply_rate": 0.6757990867579908,
+      "mean_reward": 0.6119791666666666,
+      "hardened_rate": 0.5911458333333334,
+      "false_passes": 8,
+      "skipped_long_turns": 0,
+      "update": {
+        "loss": -0.014939918917661998,
+        "grad_norm": 0.028889695182442665,
+        "finite_gradients": true,
+        "micro_batches": 22,
+        "oom_splits": [
+          25
+        ],
+        "trained_tokens": 146735,
+        "scale": 65536.0
+      },
+      "seconds": 1085.8,
+      "peak_gib": 11.431949615478516
+    },
+    {
+      "step": 22,
+      "draws": 48,
+      "informative_groups": 32,
+      "dropped_groups": 16,
+      "retired_total": 182,
+      "episodes": 384,
+      "valid_reply_rate": 0.7455429497568882,
+      "mean_reward": 0.6171875,
+      "hardened_rate": 0.5807291666666666,
+      "false_passes": 14,
+      "skipped_long_turns": 0,
+      "update": {
+        "loss": -0.021929012604232412,
+        "grad_norm": 0.030305059626698494,
+        "finite_gradients": true,
+        "micro_batches": 21,
+        "oom_splits": [
+          30,
+          26
+        ],
+        "trained_tokens": 145762,
+        "scale": 65536.0
+      },
+      "seconds": 1061.8,
+      "peak_gib": 11.809566974639893
+    },
+    {
+      "step": 23,
+      "draws": 48,
+      "informative_groups": 32,
+      "dropped_groups": 16,
+      "retired_total": 189,
+      "episodes": 384,
+      "valid_reply_rate": 0.7191011235955056,
+      "mean_reward": 0.6145833333333334,
+      "hardened_rate": 0.5598958333333334,
+      "false_passes": 21,
+      "skipped_long_turns": 0,
+      "update": {
+        "loss": -0.019741427080589347,
+        "grad_norm": 0.03007792867720127,
+        "finite_gradients": true,
+        "micro_batches": 20,
+        "oom_splits": [],
+        "trained_tokens": 140575,
+        "scale": 65536.0
+      },
+      "seconds": 1046.2,
+      "peak_gib": 11.623212337493896
+    },
+    {
+      "step": 24,
+      "draws": 48,
+      "informative_groups": 32,
+      "dropped_groups": 16,
+      "retired_total": 194,
+      "episodes": 384,
+      "valid_reply_rate": 0.7262830482115086,
+      "mean_reward": 0.6015625,
+      "hardened_rate": 0.5833333333333334,
+      "false_passes": 7,
+      "skipped_long_turns": 0,
+      "update": {
+        "loss": -0.016313526226440445,
+        "grad_norm": 0.032248567789793015,
+        "finite_gradients": true,
+        "micro_batches": 19,
+        "oom_splits": [],
+        "trained_tokens": 133424,
+        "scale": 65536.0
+      },
+      "seconds": 1025.5,
+      "peak_gib": 11.681748867034912
+    }
+  ],
+  "oom_splits": [],
+  "stop_reason": "chunk_time",
+  "seconds": 12117,
+  "state_step": 24
+}

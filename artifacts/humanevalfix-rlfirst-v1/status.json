@@ -1,0 +1,25 @@
+{
+  "status": "downloaded_needs_grading",
+  "outcomes": {
+    "base": {
+      "status": "downloaded",
+      "kernel": "alwaysacing/repairlab-hef3-base",
+      "version": 1
+    },
+    "hardened": {
+      "status": "downloaded",
+      "kernel": "alwaysacing/repairlab-hef3-hardened",
+      "version": 1
+    },
+    "weak": {
+      "status": "downloaded",
+      "kernel": "alwaysacing/repairlab-hef3-weak",
+      "version": 1
+    },
+    "supervised": {
+      "status": "downloaded",
+      "kernel": "alwaysacing/repairlab-hef3-supervised",
+      "version": 1
+    }
+  }
+}

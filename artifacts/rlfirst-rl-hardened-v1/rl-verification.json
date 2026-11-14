@@ -1,0 +1,2282 @@
+{
+  "kind": "rlfirst_rl_audit",
+  "arm": "hardened",
+  "steps": 53,
+  "episodes": 20352,
+  "distinct_submissions_regraded": 12142,
+  "trained_turns_token_checked": 20652,
+  "token_check": true,
+  "problems": [],
+  "problem_count": 0,
+  "flagged_submissions": [
+    {
+      "step": 3,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 3,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 4,
+      "task_id": "hex-color-code~b2150515f6",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 5,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 8,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 9,
+      "task_id": "zip-code~d06c7b6286",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 12,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 0,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 12,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 12,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 14,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 14,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 2,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 14,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 15,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 5,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 16,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 16,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 16,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 16,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 7,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 19,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 19,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 19,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 19,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 19,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 19,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 20,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 21,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 21,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 21,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 3,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 21,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 21,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 22,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 22,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 22,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 22,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 22,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 24,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 24,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 2,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 24,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 24,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 24,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 26,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 26,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 26,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 2,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 26,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 26,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 26,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 26,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 26,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 26,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 27,
+      "task_id": "password-classes~7075f3f65d",
+      "sample": 2,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 27,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 27,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 3,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 27,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 27,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 27,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 27,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 3,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 27,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 27,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 5,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 27,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 6,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 29,
+      "task_id": "zip-code~d06c7b6286",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 30,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 30,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 32,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 32,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 32,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 33,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 33,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 0,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 33,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 2,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 33,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 33,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 33,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 33,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 33,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 6,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 33,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 34,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 34,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 34,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 34,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 34,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 34,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 34,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 34,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 35,
+      "task_id": "zip-code~d06c7b6286",
+      "sample": 1,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 37,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 37,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 37,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 37,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 37,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 37,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 37,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 37,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 37,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 6,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 38,
+      "task_id": "zip-code~52e968bedb",
+      "sample": 3,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 38,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 38,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 38,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 4,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 38,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 5,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 38,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 39,
+      "task_id": "hex-color-code~8673312bc1",
+      "sample": 5,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 39,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 39,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 1,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 39,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 39,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 39,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 7,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 40,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 40,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 40,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 40,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 40,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 40,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 40,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 41,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 41,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 41,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 42,
+      "task_id": "zip-code~d06c7b6286",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 42,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 0,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 42,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 2,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 42,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 42,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 43,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 43,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 43,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 1,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 43,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 43,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 43,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 43,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 43,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 2,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 43,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 43,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 43,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 44,
+      "task_id": "zip-code~48426e719a",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 44,
+      "task_id": "zip-code~48426e719a",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 44,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 44,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 1,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 44,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 4,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 44,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 5,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 44,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 44,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 44,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 7,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 45,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 45,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 45,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 45,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 45,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 45,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 45,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 0,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 45,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 45,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 3,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 45,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 45,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 46,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 46,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 46,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 2,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 46,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 46,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 46,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 47,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 47,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 2,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 47,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 47,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 7,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 47,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 0,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 47,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 47,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 2,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 47,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 47,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 47,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 47,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 47,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 7,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 48,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 48,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 0,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 48,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 48,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 1,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 48,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 2,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 48,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 48,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 48,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 49,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 49,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 49,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 49,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 49,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 1,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 49,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 2,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 49,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 49,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 49,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 49,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 7,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 49,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 49,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 49,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 49,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 49,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 6,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 50,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 2,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 50,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 50,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 50,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 50,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 50,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 50,
+      "task_id": "password-classes~b0476b62a1",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 50,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 50,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 1,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 50,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 2,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 50,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 50,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 7,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 51,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 0,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 51,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 51,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 2,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 51,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 51,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 3,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 51,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 51,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 51,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 51,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 51,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 7,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 51,
+      "task_id": "zip-code~d06c7b6286",
+      "sample": 7,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 51,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 51,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 2,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 51,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 51,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 52,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 3,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 52,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 52,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 52,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 52,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 52,
+      "task_id": "same-letter-counts~efa563d27f",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 53,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 1,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 53,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 53,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 53,
+      "task_id": "most-frequent~b9f5763b9f",
+      "sample": 7,
+      "turn": 2,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 53,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 1,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 53,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 2,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 53,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 53,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 5,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 53,
+      "task_id": "same-letter-counts~3af570b8a1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 53,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 4,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 53,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 6,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    },
+    {
+      "step": 53,
+      "task_id": "most-frequent~8f37807ce1",
+      "sample": 7,
+      "turn": 1,
+      "names": [
+        "import"
+      ]
+    }
+  ],
+  "flagged_count": 238,
+  "repeated_draws": {
+    "drawn_twice_in_a_step": [
+      {
+        "step": 15,
+        "task_id": "hostname-label~4f28fee579"
+      },
+      {
+        "step": 15,
+        "task_id": "username-charset~0873242a91"
+      },
+      {
+        "step": 15,
+        "task_id": "rotate-left~4f8d90df53"
+      },
+      {
+        "step": 21,
+        "task_id": "zip-code~c866be8786"
+      },
+      {
+        "step": 21,
+        "task_id": "thermostat-state~96d7132cd3"
+      },
+      {
+        "step": 30,
+        "task_id": "quiet-hours~fd579bbbf7"
+      },
+      {
+        "step": 30,
+        "task_id": "split-on-zero~22df98ee1d"
+      },
+      {
+        "step": 37,
+        "task_id": "allowed-status~77d5249490"
+      },
+      {
+        "step": 37,
+        "task_id": "valid-clock-time~6a491860b5"
+      },
+      {
+        "step": 40,
+        "task_id": "word-frequency~76c2b66840"
+      },
+      {
+        "step": 46,
+        "task_id": "parking-fee~f66919f88a"
+      },
+      {
+        "step": 46,
+        "task_id": "password-classes~66b765fe17"
+      },
+      {
+        "step": 46,
+        "task_id": "version-at-least~789ac245f2"
+      },
+      {
+        "step": 46,
+        "task_id": "version-at-least~c8433de32a"
+      },
+      {
+        "step": 48,
+        "task_id": "index-of-max~32605f1da7"
+      },
+      {
+        "step": 48,
+        "task_id": "bounded-queue~35b9dd3b74"
+      },
+      {
+        "step": 50,
+        "task_id": "zip-code~52e968bedb"
+      },
+      {
+        "step": 50,
+        "task_id": "optional-name~5cdfbf39bc"
+      },
+      {
+        "step": 50,
+        "task_id": "split-on-zero~cd9170bf6c"
+      },
+      {
+        "step": 52,
+        "task_id": "turn-direction~0e57c16cd5"
+      },
+      {
+        "step": 52,
+        "task_id": "quiet-hours~18fd7eea8f"
+      },
+      {
+        "step": 52,
+        "task_id": "business-hours~838b638424"
+      }
+    ],
+    "drawn_twice_in_one_draw": [
+      {
+        "step": 21,
+        "task_id": "token-bucket~3ed92c4087"
+      },
+      {
+        "step": 30,
+        "task_id": "thermostat-state~e6d764f61b"
+      },
+      {
+        "step": 30,
+        "task_id": "password-classes~5900a8c7ec"
+      },
+      {
+        "step": 43,
+        "task_id": "business-hours~0a2223f22b"
+      },
+      {
+        "step": 43,
+        "task_id": "rate-window~b46f3650e0"
+      },
+      {
+        "step": 48,
+        "task_id": "bus-riders~df1c913496"
+      },
+      {
+        "step": 48,
+        "task_id": "valid-day-of-month~983bec66e8"
+      },
+      {
+        "step": 52,
+        "task_id": "rate-window~b46f3650e0"
+      }
+    ]
+  }
+}
